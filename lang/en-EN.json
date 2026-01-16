@@ -1391,6 +1391,7 @@
 		"NAMES": {
 			"channeling": "Channeling",
 			"charm": "Charm",
+			"discipline": "Discipline",
 			"education": "Education",
 			"firstAid": "First Aid",
 			"folklore": "Folklore",
@@ -1401,6 +1402,7 @@
 			"medicine": "Medicine",
 			"observation": "Observation",
 			"piety": "Piety",
+			"resilience": "Resilience",
 			"ride": "Ride",
 			"skulduggery": "Skulduggery",
 			"stealth": "Stealth",
