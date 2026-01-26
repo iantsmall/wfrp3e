@@ -10,6 +10,7 @@ export default class Armour extends Trapping
 
 		return Object.assign({
 			defenceValue: new fields.NumberField({initial: 0, integer: true, min: 0, nullable: false, required: true}),
+			equipped: new fields.BooleanField(),
 			soakValue: new fields.NumberField({initial: 0, integer: true, min: 0, nullable: false, required: true})
 		}, super.defineSchema());
 	}

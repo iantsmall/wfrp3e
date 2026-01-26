@@ -224,6 +224,7 @@
 		"ACTIONS.update": "Save Armour",
 		"FIELDS": {
 			"defenceValue.label": "Defence",
+			"equipped.label": "Equipped",
 			"soakValue.label": "Soak"
 		},
 		"TABS": {

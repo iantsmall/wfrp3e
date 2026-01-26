@@ -49,7 +49,7 @@ export default class Creature extends Actor
 	/** @inheritDoc */
 	get totalDefence()
 	{
-		return this.parent.itemTypes.armour.length > 0
+		return this.parent.itemTypes.armour.filter(armour => armour.system.equipped).length > 0
 			? super.totalDefence
 			: this.defenceValue + this.defenceModifier;
 	}
@@ -57,7 +57,7 @@ export default class Creature extends Actor
 	/** @inheritDoc */
 	get totalSoak()
 	{
-		return this.parent.itemTypes.armour.length > 0
+		return this.parent.itemTypes.armour.filter(armour => armour.system.equipped).length > 0
 			? super.totalSoak
 			: this.soakValue + this.soakModifier;
 	}

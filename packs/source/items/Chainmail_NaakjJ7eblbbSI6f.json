@@ -1,0 +1,27 @@
+{
+  "name": "Chainmail",
+  "type": "armour",
+  "img": "icons/equipment/chest/breastplate-scale-grey.webp",
+  "system": {
+    "defenceValue": 0,
+    "soakValue": 3,
+    "cost": {
+      "brass": 0,
+      "silver": 0,
+      "gold": 1
+    },
+    "description": "<p>Chainmail armour provides substantial protection, covering the wearer in interlocking mail links. It often features thick padding or light leather underneath for greater comfort and slightly more protection. A mail coif protects the head, and mail gauntlets are worn.</p>",
+    "encumbrance": 6,
+    "equipped": false,
+    "rarity": "common"
+  },
+  "effects": [],
+  "folder": "wCqreVowARbBcAZy",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_id": "NaakjJ7eblbbSI6f",
+  "flags": {},
+  "_key": "!items!NaakjJ7eblbbSI6f"
+}

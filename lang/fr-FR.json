@@ -224,6 +224,7 @@
 		"ACTIONS.update": "Enregistrer l'armure",
 		"FIELDS": {
 			"defenceValue.label": "Défense",
+			"equipped.label": "Équipé",
 			"soakValue.label": "Encaissement"
 		},
 		"TABS": {

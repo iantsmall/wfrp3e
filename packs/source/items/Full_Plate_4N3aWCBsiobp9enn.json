@@ -1,0 +1,27 @@
+{
+  "name": "Full Plate",
+  "type": "armour",
+  "img": "icons/equipment/chest/breastplate-collared-steel.webp",
+  "system": {
+    "defenceValue": 1,
+    "soakValue": 5,
+    "cost": {
+      "brass": 0,
+      "silver": 0,
+      "gold": 20
+    },
+    "description": "<p>The ultimate in protection, full plate encases the warrior in steel. Expensive and heavy, this armour is usually only worn by knights, nobles, and warriors of high station. Merely owning a suit of plate armour is a sign of great prestige. These suits are often ornate, decorated with a family crest or other symbols of personal allegiance.</p>",
+    "encumbrance": 8,
+    "equipped": false,
+    "rarity": "rare"
+  },
+  "effects": [],
+  "folder": "wCqreVowARbBcAZy",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_id": "4N3aWCBsiobp9enn",
+  "flags": {},
+  "_key": "!items!4N3aWCBsiobp9enn"
+}

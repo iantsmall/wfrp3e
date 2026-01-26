@@ -1,0 +1,27 @@
+{
+  "folder": "u8RdN316beESTZQO",
+  "name": "Buckler",
+  "type": "armour",
+  "_id": "HKrGWFsDU8FWDusK",
+  "img": "icons/equipment/shield/buckler-wooden-boss-brown.webp",
+  "system": {
+    "defenceValue": 1,
+    "soakValue": 0,
+    "cost": {
+      "brass": 0,
+      "silver": 20,
+      "gold": 0
+    },
+    "description": "<p>A buckler is a small shield, often used for fencing. A spiked buckler can also be used as a gauntlet in melee.</p>",
+    "encumbrance": 2,
+    "equipped": false,
+    "rarity": "common"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!HKrGWFsDU8FWDusK"
+}

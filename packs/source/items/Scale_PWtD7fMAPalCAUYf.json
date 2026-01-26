@@ -1,0 +1,27 @@
+{
+  "name": "Scale",
+  "type": "armour",
+  "img": "icons/equipment/chest/breastplate-metal-scaled-grey.webp",
+  "system": {
+    "defenceValue": 0,
+    "soakValue": 4,
+    "cost": {
+      "brass": 0,
+      "silver": 0,
+      "gold": 3
+    },
+    "description": "<p>This type of armour dates from the days before plate armour was practical. Heavy metal scales are sewn onto a leather backing. This armour provides substantial protection versus the strongest of blows, but is very heavy and tiring to wear. It includes a metal skull cap and heavy scale-covered gauntlets.</p>",
+    "encumbrance": 7,
+    "equipped": false,
+    "rarity": "rare"
+  },
+  "effects": [],
+  "folder": "wCqreVowARbBcAZy",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_id": "PWtD7fMAPalCAUYf",
+  "flags": {},
+  "_key": "!items!PWtD7fMAPalCAUYf"
+}

@@ -5,5 +5,9 @@
 		{{formGroup fields.defenceValue value=system.defenceValue classes="slim" rootId=rootId}}
 
 		{{formGroup fields.soakValue value=system.soakValue classes="slim" rootId=rootId}}
+
+		{{#if document.actor}}
+			{{formGroup fields.equipped value=system.equipped classes="slim" rootId=rootId}}
+		{{/if}}
 	</fieldset>
 </section>

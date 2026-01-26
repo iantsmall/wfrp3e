@@ -1,0 +1,27 @@
+{
+  "name": "Brigandine",
+  "type": "armour",
+  "_id": "m0klKwKvRltdlq7z",
+  "img": "icons/equipment/chest/breastplate-layered-leather-brown.webp",
+  "system": {
+    "description": "<p>A suit of heavy cloth sewn with metal plates, this type of armour has become largely obsolete in the Empire’s armies, but still sees some use outside the military. It includes a metal helm often in an outdated style, and has metal gauntlets.</p>",
+    "cost": {
+      "brass": 0,
+      "silver": 20,
+      "gold": 0
+    },
+    "encumbrance": 5,
+    "equipped": false,
+    "rarity": "common",
+    "defenceValue": 1,
+    "soakValue": 1
+  },
+  "effects": [],
+  "folder": "wCqreVowARbBcAZy",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!m0klKwKvRltdlq7z"
+}
