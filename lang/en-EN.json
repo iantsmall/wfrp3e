@@ -1374,6 +1374,14 @@
 			},
 			"name": "Starting Career Drawing Method",
 			"hint": "Defines the way a new character's starting career is drawn with the Character Generator.\n– Draw Three: Three basic careers are drawn amongst those existing within the world and its compendium.\n– Roll Table: One single basic career is drawn from the Starting Career Table.\n– Free Choice: The starting career can be chosen amongst every available basic career within the world and its compendium."
+		},
+		"stressFatigueCreatures": {
+			"CHOICES": {
+				"wounds": "Inflict Wounds",
+				"drawThree": "Erode Budget"
+			},
+			"name": "Stress & Fatigue versus Creatures",
+			"hint": "Defines the way stress and fatigue are handled by creatures.\n– Inflict Wounds: Any amount of fatigue or stress is inflicted as an equal number of wounds (as described in The Game Master's Guide).\n– Erode Budget: Each point of fatigue/stress removes one Aggression/Cunning die. When Aggression/Cunning is depleted, Expertise is reduced instead. Once Expertise is reduced to zero, fatigue and stress inflict wounds per normal rules (as described in The Creature's Guide)."
 		}
 	},
 

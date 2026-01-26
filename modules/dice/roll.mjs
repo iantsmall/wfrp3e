@@ -835,8 +835,11 @@ export default class CheckRoll extends foundry.dice.Roll
 			await effect.triggerMacro({actor, checkData, checkRoll: this, outcome, target: targetActor});
 
 		if(targetActor) {
-			if(targetActor.type === "creature" && !targetActor.system.nemesis)
-				outcome.targetDamages += outcome.targetFatigue + outcome.targetStress;
+			if(targetActor.type === "creature" && !targetActor.system.nemesis
+				&& (outcome.targetFatigue > 0 || outcome.targetStress > 0))
+					game.settings.get("wfrp3e", "stressFatigueCreatures") === "budget"
+						? await targetActor.erodeBudget(outcome.targetFatigue, outcome.targetStress)
+						: await targetActor.adjustWounds(-(outcome.targetFatigue + outcome.targetStress));
 			else {
 				if(outcome.targetFatigue > 0 || outcome.targetFatigue < 0)
 					await targetActor.adjustFatigue(-outcome.targetFatigue);

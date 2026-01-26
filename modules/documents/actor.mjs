@@ -559,6 +559,55 @@ export default class Actor extends foundry.documents.Actor
 	}
 
 	//#endregion
+	//#region Creature methods
+
+	/**
+	 * Reduces the budget depending on how much fatigue and stress are suffered.
+	 * If the budget is lower than the amount, reduces the expertise budget by the remaining amount.
+	 * If the expertise budget is lower than the remaining amount, it inflicts an equal number of wounds.
+	 * @param {number} fatigue The amount of fatigue suffered.
+	 * @param {number} stress The amount of stress suffered.
+	 * @return {Promise<void>}
+	 */
+	async erodeBudget(fatigue, stress)
+	{
+		const updates = {};
+		let excess = 0;
+
+		if(fatigue) {
+			const propertyPath = "system.attributes.aggression.value",
+				  aggression = foundry.utils.getProperty(this, propertyPath);
+				  updates[propertyPath] = aggression - fatigue;
+
+			if(fatigue > aggression)
+				excess += fatigue - aggression;
+		}
+
+		if(stress) {
+			const propertyPath = "system.attributes.cunning.value",
+				  cunning = foundry.utils.getProperty(this, propertyPath);
+				  updates[propertyPath] = cunning - stress;
+
+			if(stress > cunning)
+				excess += stress - cunning;
+		}
+
+		if(excess) {
+			const propertyPath = "system.attributes.expertise.value",
+				  expertise = foundry.utils.getProperty(this, propertyPath);
+			updates[propertyPath] = expertise - excess;
+
+			if(excess > expertise) {
+				const woundPropertyPath = "system.wounds.value",
+					  wounds = foundry.utils.getProperty(this, woundPropertyPath);
+				updates[woundPropertyPath] = wounds - (excess - expertise);
+			}
+		}
+
+		await this.update(updates);
+	}
+
+	//#endregion
 	//#region Party methods
 
 	/**
