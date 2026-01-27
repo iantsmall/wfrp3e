@@ -1,0 +1,31 @@
+{
+  "folder": "szoRh3PsaCvrXXf2",
+  "name": "Sabre",
+  "type": "weapon",
+  "_id": "lAP3b7cOtte6NmI1",
+  "img": "icons/weapons/swords/scimitar-guard-red.webp",
+  "system": {
+    "criticalRating": 3,
+    "damageRating": 5,
+    "group": "cavalry",
+    "qualities": [],
+    "range": "close",
+    "special": "<p>If a mounted character armed with a sabre is trained in Ride, add {Df} to his attack rolls. A sabre functions as a hand weapon in the hands of a character on foot.</p>",
+    "cost": {
+      "brass": 0,
+      "silver": 40,
+      "gold": 0
+    },
+    "description": "<p>The long, curved blade of a sabre is favoured among cavalry units, allowing their mount’s momentum to lend strength and power to the weapon’s slashes.</p>",
+    "encumbrance": 3,
+    "equipped": false,
+    "rarity": "rare"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!lAP3b7cOtte6NmI1"
+}

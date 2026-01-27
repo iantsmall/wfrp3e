@@ -1,0 +1,36 @@
+{
+  "folder": "szoRh3PsaCvrXXf2",
+  "name": "Rapier",
+  "type": "weapon",
+  "_id": "C18FmnA9MmyH5PRF",
+  "img": "icons/weapons/swords/scimitar-guard-brown.webp",
+  "system": {
+    "criticalRating": 3,
+    "damageRating": 5,
+    "group": "fencing",
+    "qualities": [
+      {
+        "name": "fast",
+        "rating": 1
+      }
+    ],
+    "range": "close",
+    "special": "",
+    "cost": {
+      "brass": 0,
+      "silver": 90,
+      "gold": 0
+    },
+    "description": "<p>The rapier is an elegant noble’s weapon. Fast and effective, it allows for dazzling displays of swordsmanship. The downside is that its reputation as a weapon of the upper class means it is often wildly overpriced.</p>",
+    "encumbrance": 3,
+    "equipped": false,
+    "rarity": "rare"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!C18FmnA9MmyH5PRF"
+}

@@ -1,0 +1,40 @@
+{
+  "folder": "szoRh3PsaCvrXXf2",
+  "name": "Main Gauche",
+  "type": "weapon",
+  "_id": "jAI5ehTcv0QexLpP",
+  "img": "icons/weapons/daggers/dagger-straight-thin-black.webp",
+  "system": {
+    "criticalRating": 4,
+    "damageRating": 4,
+    "group": "fencing",
+    "qualities": [
+      {
+        "name": "fast",
+        "rating": 1
+      },
+      {
+        "name": "defensive",
+        "rating": 1
+      }
+    ],
+    "range": "close",
+    "special": "",
+    "cost": {
+      "brass": 0,
+      "silver": 35,
+      "gold": 0
+    },
+    "description": "<p>A slightly longer dagger designed to be used in the off hand to aid in parrying. It can be treated as an ordinary weapon rather than a fencing weapon, but loses its defensive quality as a consequence.</p>",
+    "encumbrance": 2,
+    "equipped": false,
+    "rarity": "rare"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!jAI5ehTcv0QexLpP"
+}

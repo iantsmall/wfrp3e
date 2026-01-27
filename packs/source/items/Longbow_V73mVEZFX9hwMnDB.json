@@ -1,0 +1,40 @@
+{
+  "folder": "ZwhVvJmBMNWLFSLX",
+  "name": "Longbow",
+  "type": "weapon",
+  "_id": "V73mVEZFX9hwMnDB",
+  "img": "icons/weapons/bows/longbow-leather-green.webp",
+  "system": {
+    "criticalRating": 3,
+    "damageRating": 5,
+    "group": "bow",
+    "qualities": [
+      {
+        "name": "pierce",
+        "rating": 1
+      },
+      {
+        "name": "twoHanded",
+        "rating": 1
+      }
+    ],
+    "range": "long",
+    "special": "<p>This weapon can fire at a target at extreme range by adding {Dchal} to the dice pool.</p>",
+    "cost": {
+      "brass": 0,
+      "silver": 40,
+      "gold": 0
+    },
+    "description": "<p>A large and powerful version of the bow renowned both for its ability to pierce armour and the difficulty of mastering it. It is the main weapon of choice for the wood elves, but little used by the people of the Empire.</p>",
+    "encumbrance": 4,
+    "equipped": false,
+    "rarity": "rare"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!V73mVEZFX9hwMnDB"
+}

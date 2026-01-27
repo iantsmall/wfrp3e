@@ -19,6 +19,7 @@ export default class Weapon extends Trapping
 		return Object.assign({
 			criticalRating: new fields.NumberField({initial: 5, integer: true, min: 0, nullable: false, required: true}),
 			damageRating: new fields.NumberField({initial: 3, integer: true, min: 0, nullable: false, required: true}),
+			equipped: new fields.BooleanField(),
 			group: new fields.StringField({
 				choices: groups,
 				initial: Object.keys(Weapon.GROUPS)[0],

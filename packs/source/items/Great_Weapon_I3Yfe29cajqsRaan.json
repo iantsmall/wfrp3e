@@ -1,0 +1,36 @@
+{
+  "folder": "szoRh3PsaCvrXXf2",
+  "name": "Great Weapon",
+  "type": "weapon",
+  "_id": "I3Yfe29cajqsRaan",
+  "img": "icons/weapons/swords/greatsword-crossguard-steel.webp",
+  "system": {
+    "description": "<p>Whether the long two-handed swords of the Imperial heavy infantry or the heavy axes of the elite dwarf warriors, the term great weapon refers to a broad class of armaments. Devastating when they hit and well-balanced for fighting, few wish to face an enemy wielding these large and terrifying killers.</p>",
+    "cost": {
+      "brass": 0,
+      "silver": 0,
+      "gold": 1
+    },
+    "encumbrance": 6,
+    "equipped": false,
+    "rarity": "rare",
+    "damageRating": 7,
+    "criticalRating": 2,
+    "group": "greatWeapon",
+    "range": "close",
+    "qualities": [
+      {
+        "name": "twoHanded",
+        "rating": 1
+      }
+    ],
+    "special": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "sort": 150000,
+  "flags": {},
+  "_key": "!items!I3Yfe29cajqsRaan"
+}

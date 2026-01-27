@@ -189,7 +189,7 @@ export default class CheckBuilder extends foundry.applications.api.HandlebarsApp
 									validWeaponGroups.push(key);
 
 							partContext.availableWeapons = action.actor.itemTypes.weapon.filter(weapon => {
-								return validWeaponGroups.includes(weapon.system.group);
+								return weapon.system.equipped && validWeaponGroups.includes(weapon.system.group);
 							});
 
 							if(actor.type === "character")

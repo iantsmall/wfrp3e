@@ -1,0 +1,35 @@
+{
+  "name": "Repeater Crossbow",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-purple.webp",
+  "effects": [],
+  "folder": "ZwhVvJmBMNWLFSLX",
+  "system": {
+    "description": "<p>A standard crossbow with a complex firing mechanism and a gravity fed magazine that holds ten bolts.</p>",
+    "cost": {
+      "brass": 0,
+      "silver": 0,
+      "gold": 3
+    },
+    "encumbrance": 4,
+    "rarity": "exotic",
+    "damageRating": 4,
+    "criticalRating": 3,
+    "group": "crossbow",
+    "range": "medium",
+    "qualities": [
+      {
+        "name": "twoHanded",
+        "rating": 1
+      }
+    ],
+    "special": "<p>While the magazine is loaded, it is a free action to cock another bolt into place. Once the magazine is empty, it takes four manoeuvres to reload this complex device.</p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 100000,
+  "_id": "UOKIwqSISbjn7WuO",
+  "flags": {},
+  "_key": "!items!UOKIwqSISbjn7WuO"
+}

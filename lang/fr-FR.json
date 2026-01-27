@@ -1692,6 +1692,7 @@
 				"abbreviation": "ND",
 				"label": "Niveau de Dégâts"
 			},
+			"equipped.label": "Équipé",
 			"group.label": "Groupe",
 			"qualities": {
 				"FIELDS": {

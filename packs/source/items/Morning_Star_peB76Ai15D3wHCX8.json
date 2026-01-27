@@ -1,0 +1,36 @@
+{
+  "folder": "szoRh3PsaCvrXXf2",
+  "name": "Morning Star",
+  "type": "weapon",
+  "_id": "peB76Ai15D3wHCX8",
+  "img": "icons/weapons/maces/mace-round-spiked-black.webp",
+  "system": {
+    "criticalRating": 3,
+    "damageRating": 6,
+    "group": "flail",
+    "qualities": [
+      {
+        "name": "slow",
+        "rating": 1
+      }
+    ],
+    "range": "close",
+    "special": "<p>When using the <strong>Block</strong> or <strong>Parry</strong> action against a morning star, place one additional recharge counter on the <em>Active Defence</em> card used.</p>",
+    "cost": {
+      "brass": 0,
+      "silver": 60,
+      "gold": 0
+    },
+    "description": "<p>A flail with one chain and ball making it far easier to control though less damaging. A morning star is difficult to block because it can wrap around shields.</p>",
+    "encumbrance": 4,
+    "equipped": false,
+    "rarity": "rare"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!peB76Ai15D3wHCX8"
+}

@@ -1,0 +1,48 @@
+{
+  "folder": "ZwhVvJmBMNWLFSLX",
+  "name": "Blunderbuss",
+  "type": "weapon",
+  "_id": "SUSgkEvQZVOBZ0wI",
+  "img": "icons/weapons/guns/gun-blunderbuss-bronze.webp",
+  "system": {
+    "criticalRating": 3,
+    "damageRating": 5,
+    "group": "blackpowder",
+    "qualities": [
+      {
+        "name": "blast",
+        "rating": 1
+      },
+      {
+        "name": "reload",
+        "rating": 1
+      },
+      {
+        "name": "twoHanded",
+        "rating": 1
+      },
+      {
+        "name": "unreliable",
+        "rating": 1
+      }
+    ],
+    "range": "close",
+    "special": "",
+    "cost": {
+      "brass": 0,
+      "silver": 0,
+      "gold": 2
+    },
+    "description": "<p>The blunderbuss is a primitive, wide-barrelled version of the handgun. Firing a hail of shrapnel and shot, this is no marksman’s weapon. It can cut through large swathes of enemies if the blast is properly placed, but it is time-consuming to reload.</p>",
+    "encumbrance": 4,
+    "equipped": false,
+    "rarity": "rare"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!SUSgkEvQZVOBZ0wI"
+}

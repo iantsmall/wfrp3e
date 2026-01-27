@@ -1,0 +1,36 @@
+{
+  "folder": "szoRh3PsaCvrXXf2",
+  "name": "Quarter Staff",
+  "type": "weapon",
+  "_id": "eDbLbxOTrXrm2XJT",
+  "img": "icons/weapons/staves/staff-simple-carved.webp",
+  "system": {
+    "criticalRating": 4,
+    "damageRating": 4,
+    "group": "staff",
+    "qualities": [
+      {
+        "name": "defensive",
+        "rating": 1
+      }
+    ],
+    "range": "close",
+    "special": "",
+    "cost": {
+      "brass": 10,
+      "silver": 0,
+      "gold": 0
+    },
+    "description": "<p>Little more than a long length of wood, this weapon can still be deadly in the hands of a trained specialist. When mastered, the quarter staff is capable of parrying and riposting almost faster than the eye can follow.</p>",
+    "encumbrance": 3,
+    "equipped": false,
+    "rarity": "abundant"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!eDbLbxOTrXrm2XJT"
+}

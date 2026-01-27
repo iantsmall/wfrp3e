@@ -1,0 +1,36 @@
+{
+  "folder": "ZwhVvJmBMNWLFSLX",
+  "name": "Throwing Axe/Hammer",
+  "type": "weapon",
+  "_id": "4MLnYFcf9LuytdxL",
+  "img": "icons/weapons/axes/axe-broad-black.webp",
+  "system": {
+    "criticalRating": 3,
+    "damageRating": 5,
+    "group": "thrown",
+    "qualities": [
+      {
+        "name": "thrown",
+        "rating": 1
+      }
+    ],
+    "range": "close",
+    "special": "",
+    "cost": {
+      "brass": 0,
+      "silver": 10,
+      "gold": 0
+    },
+    "description": "<p>Axes or hammers balanced for throwing.</p>",
+    "encumbrance": 3,
+    "equipped": false,
+    "rarity": "plentiful"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!4MLnYFcf9LuytdxL"
+}

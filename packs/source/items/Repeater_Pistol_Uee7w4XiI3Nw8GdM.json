@@ -1,0 +1,40 @@
+{
+  "folder": "ZwhVvJmBMNWLFSLX",
+  "name": "Repeater Pistol",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol-brown.webp",
+  "system": {
+    "description": "<p>The pistol version of the Repeater Handgun.</p>",
+    "cost": {
+      "brass": 0,
+      "silver": 0,
+      "gold": 12
+    },
+    "encumbrance": 3,
+    "equipped": false,
+    "rarity": "exotic",
+    "damageRating": 6,
+    "criticalRating": 2,
+    "group": "blackpowder",
+    "range": "close",
+    "qualities": [
+      {
+        "name": "pierce",
+        "rating": 1
+      },
+      {
+        "name": "unreliable",
+        "rating": 1
+      }
+    ],
+    "special": "<p>Once all six barrels are expended, it takes six manoeuvres to reload this weapon.</p>"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "sort": 300000,
+  "_id": "Uee7w4XiI3Nw8GdM",
+  "flags": {},
+  "_key": "!items!Uee7w4XiI3Nw8GdM"
+}

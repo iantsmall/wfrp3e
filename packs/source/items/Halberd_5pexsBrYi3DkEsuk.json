@@ -1,0 +1,36 @@
+{
+  "folder": "szoRh3PsaCvrXXf2",
+  "name": "Halberd",
+  "type": "weapon",
+  "_id": "5pexsBrYi3DkEsuk",
+  "img": "icons/weapons/polearms/halberd-crescent-small-spiked.webp",
+  "system": {
+    "criticalRating": 2,
+    "damageRating": 6,
+    "group": "polearm",
+    "qualities": [
+      {
+        "name": "twoHanded",
+        "rating": 1
+      }
+    ],
+    "range": "close",
+    "special": "<p>Its default use is as a polearm, with the stats as shown. The wielder can perform a manoeuvre to change his grip and use the halberd as a spear, gaining the statistics for a standard spear, although it cannot be thrown.</p>",
+    "cost": {
+      "brass": 0,
+      "silver": 75,
+      "gold": 0
+    },
+    "description": "<p>A heavy axe mounted at the end of the long haft, the halberd is a versatile weapon often used by militias and the town watch.</p>",
+    "encumbrance": 5,
+    "equipped": false,
+    "rarity": "common"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!5pexsBrYi3DkEsuk"
+}

@@ -1692,6 +1692,7 @@
 				"abbreviation": "DR",
 				"label": "Damage Rating"
 			},
+			"equipped.label": "Equipped",
 			"group.label": "Group",
 			"qualities": {
 				"FIELDS": {

@@ -1,0 +1,36 @@
+{
+  "folder": "ZwhVvJmBMNWLFSLX",
+  "name": "Javelin",
+  "type": "weapon",
+  "_id": "TUWR6STtGq9GLyWj",
+  "img": "icons/weapons/polearms/javelin-flared.webp",
+  "system": {
+    "criticalRating": 3,
+    "damageRating": 5,
+    "group": "thrown",
+    "qualities": [
+      {
+        "name": "thrown",
+        "rating": 1
+      }
+    ],
+    "range": "close",
+    "special": "",
+    "cost": {
+      "brass": 0,
+      "silver": 1,
+      "gold": 0
+    },
+    "description": "<p>The javelin is a short spear designed for throwing. Too flimsy to be used properly in melee combat, it counts as an improvised weapon when used in such a manner.</p>",
+    "encumbrance": 1,
+    "equipped": false,
+    "rarity": "common"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!TUWR6STtGq9GLyWj"
+}

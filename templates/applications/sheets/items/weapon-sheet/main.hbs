@@ -9,6 +9,10 @@
 		{{formGroup fields.range value=system.range classes="stacked" rootId=rootId localize=true}}
 
 		{{formGroup fields.group value=system.group classes="stacked" rootId=rootId localize=true}}
+
+		{{#if document.actor}}
+			{{formGroup fields.equipped value=system.equipped classes="stacked" rootId=rootId}}
+		{{/if}}
 	</fieldset>
 
 	<fieldset class="qualities">

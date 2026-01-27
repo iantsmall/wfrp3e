@@ -1,0 +1,44 @@
+{
+  "folder": "ZwhVvJmBMNWLFSLX",
+  "name": "Pistol",
+  "type": "weapon",
+  "_id": "lAWzLWSAZzFrpsfD",
+  "img": "icons/weapons/guns/gun-pistol-brass.webp",
+  "system": {
+    "description": "<p>The pistol is a smaller one-handed version of the handgun.</p>",
+    "cost": {
+      "brass": 0,
+      "silver": 0,
+      "gold": 5
+    },
+    "encumbrance": 2,
+    "equipped": false,
+    "rarity": "rare",
+    "damageRating": 6,
+    "criticalRating": 2,
+    "group": "blackpowder",
+    "range": "close",
+    "qualities": [
+      {
+        "name": "pierce",
+        "rating": 1
+      },
+      {
+        "name": "reload",
+        "rating": 1
+      },
+      {
+        "name": "unreliable",
+        "rating": 1
+      }
+    ],
+    "special": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "sort": 300000,
+  "flags": {},
+  "_key": "!items!lAWzLWSAZzFrpsfD"
+}
