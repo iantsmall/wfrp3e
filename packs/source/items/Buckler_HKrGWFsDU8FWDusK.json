@@ -15,7 +15,8 @@
     "description": "<p>A buckler is a small shield, often used for fencing. A spiked buckler can also be used as a gauntlet in melee.</p>",
     "encumbrance": 2,
     "equipped": false,
-    "rarity": "common"
+    "rarity": "common",
+    "type": "shield"
   },
   "effects": [],
   "sort": 0,

@@ -14,7 +14,8 @@
     "equipped": false,
     "rarity": "common",
     "defenceValue": 1,
-    "soakValue": 1
+    "soakValue": 1,
+    "type": "armour"
   },
   "effects": [],
   "folder": "wCqreVowARbBcAZy",

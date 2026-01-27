@@ -225,11 +225,16 @@
 		"FIELDS": {
 			"defenceValue.label": "Défense",
 			"equipped.label": "Équipé",
-			"soakValue.label": "Encaissement"
+			"soakValue.label": "Encaissement",
+			"type.label": "Type d'armure"
 		},
 		"TABS": {
 			"effects": "Effets",
 			"main": "Principal"
+		},
+		"TYPES": {
+			"armour": "Armure",
+			"shield": "Bouclier"
 		},
 		"name": "Armure",
 		"plural": "Armures"

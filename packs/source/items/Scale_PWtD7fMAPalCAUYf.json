@@ -13,7 +13,8 @@
     "description": "<p>This type of armour dates from the days before plate armour was practical. Heavy metal scales are sewn onto a leather backing. This armour provides substantial protection versus the strongest of blows, but is very heavy and tiring to wear. It includes a metal skull cap and heavy scale-covered gauntlets.</p>",
     "encumbrance": 7,
     "equipped": false,
-    "rarity": "rare"
+    "rarity": "rare",
+    "type": "armour"
   },
   "effects": [],
   "folder": "wCqreVowARbBcAZy",

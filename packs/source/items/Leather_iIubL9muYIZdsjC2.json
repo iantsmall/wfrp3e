@@ -15,7 +15,8 @@
     "description": "<p>The voluminous robes of wizards and the garb of priests make landing a solid blow slightly more difficult. Still, counting on their protection in a fight is probably a dubious stratagem.</p>",
     "encumbrance": 3,
     "equipped": false,
-    "rarity": "plentiful"
+    "rarity": "plentiful",
+    "type": "armour"
   },
   "effects": [],
   "sort": 0,

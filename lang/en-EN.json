@@ -225,11 +225,16 @@
 		"FIELDS": {
 			"defenceValue.label": "Defence",
 			"equipped.label": "Equipped",
-			"soakValue.label": "Soak"
+			"soakValue.label": "Soak",
+			"type.label": "Armour Type"
 		},
 		"TABS": {
 			"effects": "Effects",
 			"main": "Main"
+		},
+		"TYPES": {
+			"armour": "Armour",
+			"shield": "Shield"
 		},
 		"name": "Armour",
 		"plural": "Armours"

@@ -13,7 +13,8 @@
     "description": "<p>Chainmail armour provides substantial protection, covering the wearer in interlocking mail links. It often features thick padding or light leather underneath for greater comfort and slightly more protection. A mail coif protects the head, and mail gauntlets are worn.</p>",
     "encumbrance": 6,
     "equipped": false,
-    "rarity": "common"
+    "rarity": "common",
+    "type": "armour"
   },
   "effects": [],
   "folder": "wCqreVowARbBcAZy",

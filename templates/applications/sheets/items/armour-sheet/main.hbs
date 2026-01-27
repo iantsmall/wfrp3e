@@ -2,12 +2,14 @@
 	{{>systems/wfrp3e/templates/applications/sheets/items/partials/trapping-data.hbs}}
 
 	<fieldset class="inline">
-		{{formGroup fields.defenceValue value=system.defenceValue classes="slim" rootId=rootId}}
+		{{formGroup fields.defenceValue value=system.defenceValue classes="slim stacked" rootId=rootId}}
 
-		{{formGroup fields.soakValue value=system.soakValue classes="slim" rootId=rootId}}
+		{{formGroup fields.soakValue value=system.soakValue classes="slim stacked" rootId=rootId}}
+
+		{{formGroup fields.type value=system.type classes="stacked" rootId=rootId localize=true}}
 
 		{{#if document.actor}}
-			{{formGroup fields.equipped value=system.equipped classes="slim" rootId=rootId}}
+			{{formGroup fields.equipped value=system.equipped classes="slim stacked" rootId=rootId}}
 		{{/if}}
 	</fieldset>
 </section>

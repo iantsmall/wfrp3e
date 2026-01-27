@@ -15,7 +15,8 @@
     "description": "<p>A large defensive shield usually used in siege warfare to give cover to advancing troops. For some, it is considered too heavy or cumbersome to be wielded in long drawn out fights.</p>",
     "encumbrance": 5,
     "equipped": false,
-    "rarity": "rare"
+    "rarity": "rare",
+    "type": "shield"
   },
   "effects": [],
   "sort": 0,

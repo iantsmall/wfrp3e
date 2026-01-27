@@ -14,7 +14,8 @@
     "description": "<p>A common warrior’s shield that comes in a variety of shapes and may be constructed of metal or wood. It may be used as an improvised weapon in extreme circumstances.</p>",
     "encumbrance": 4,
     "equipped": false,
-    "rarity": "common"
+    "rarity": "common",
+    "type": "shield"
   },
   "effects": [],
   "folder": "u8RdN316beESTZQO",

@@ -14,7 +14,8 @@
     "description": "<p>Sometimes called a hauberk, this shirt of woven metal links offers some protection while not being particularly constricting. It includes neither a helm nor gauntlets.</p>",
     "encumbrance": 4,
     "equipped": false,
-    "rarity": "common"
+    "rarity": "common",
+    "type": "armour"
   },
   "effects": [],
   "folder": "wCqreVowARbBcAZy",

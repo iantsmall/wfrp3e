@@ -15,7 +15,8 @@
     "description": "<p>This is not armour per se but the benefit of wearing durable, practical clothing.</p>",
     "encumbrance": 1,
     "equipped": false,
-    "rarity": "plentiful"
+    "rarity": "plentiful",
+    "type": "armour"
   },
   "effects": [],
   "sort": 0,

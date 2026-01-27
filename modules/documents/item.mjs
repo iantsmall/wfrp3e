@@ -371,6 +371,35 @@ export default class Item extends foundry.documents.Item
 	}
 
 	//#endregion
+	//#region Armour methods
+
+	/**
+	 * Post-process an update operation for a single Armour instance. Post-operation events occur for all connected clients.
+	 * @param {Object} changed The differential data that was changed relative to the Armour's prior values.
+	 * @param {Object} options Additional options which modify the update request.
+	 * @param {string} userId The id of the User requesting the Armour update.
+	 * @protected
+	 */
+	_onArmourUpdate(changed, options, userId)
+	{
+		if(this.actor && changed.system?.equipped)
+			this.#onEquippedArmourChange();
+	}
+
+	/**
+	 * Prevents two armours or shields to be equipped at the same time.
+	 * @private
+	 */
+	async #onEquippedArmourChange()
+	{
+		const equipped = this.actor.itemTypes.armour.filter(armour => {
+			return armour.uuid !== this.uuid && armour.system.equipped && armour.system.type === this.system.type;
+		});
+		for(const item of equipped)
+			await item.update({"system.equipped": false});
+	}
+
+	//#endregion
 	//#region Career methods
 
 	/**

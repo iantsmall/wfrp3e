@@ -15,7 +15,8 @@
     "description": "",
     "encumbrance": 3,
     "equipped": false,
-    "rarity": "common"
+    "rarity": "common",
+    "type": "shield"
   },
   "effects": [],
   "sort": 0,
