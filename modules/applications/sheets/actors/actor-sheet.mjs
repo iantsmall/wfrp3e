@@ -422,16 +422,17 @@ export default class ActorSheet extends foundry.applications.api.HandlebarsAppli
 		const input = event.target,
 			  item = this.actor.items.get(input.closest("[data-item-id]").dataset.itemId),
 			  name = input.name,
+			  initial = foundry.utils.getProperty(item, name),
 			  property = input.dataset.property;
 		let value = input.value;
 
 		if(value === "on")
-			value = true;
+			value = initial !== true;
 		else if(value === "")
 			value = null;
 
 		if(this.element.querySelectorAll(`input[name="${name}"][type="checkbox"]`).length > 1
-			&& foundry.utils.getProperty(item, name) === Number(value))
+			&& initial === Number(value))
 			Number(value--);
 
 		if(property) {
