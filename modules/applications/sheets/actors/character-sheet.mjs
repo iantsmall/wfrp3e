@@ -5,7 +5,10 @@ export default class CharacterSheet extends ActorSheet
 {
 	/** @inheritDoc */
 	static DEFAULT_OPTIONS = {
-		actions: {addBasicSkills: this.#addBasicSkills},
+		actions: {
+			addBasicSkills: this.#addBasicSkills,
+			channelPower: this.#channelPower,
+		},
 		classes: ["character"],
 		position: {
 			width: 992,
@@ -196,5 +199,22 @@ export default class CharacterSheet extends ActorSheet
 	static async #addBasicSkills()
 	{
 		await this.actor.addBasicSkills();
+	}
+
+	/**
+	 * Starts an action check with the Channel Power Action.
+	 * @return {Promise<void>}
+	 * @private
+	 */
+	static async #channelPower()
+	{
+		const item = this.actor.itemTypes.action.find(action => {
+			return action.name === game.i18n.localize("ACTION.CARDS.channelPower")
+		});
+
+		if(!item)
+			ui.notifications.error(game.i18n.localize("CHARACTER.WARNINGS.missingChannelPower"));
+
+		await item.use({face: this.actor.system.currentStanceName});
 	}
 }

@@ -26,6 +26,7 @@
 		},
 		"CARDS": {
 			"block": "Block",
+			"channelPower": "Channel Power ",
 			"meleeStrike": "Melee Strike",
 			"rangedShot": "Ranged Shot"
 		},
@@ -416,7 +417,10 @@
 	},
 
 	"CHARACTER": {
-		"ACTIONS.addBasicSkills": "Add Basic Skills",
+		"ACTIONS": {
+			"addBasicSkills": "Add Basic Skills",
+			"channelPower": "Channel Power"
+		},
 		"FIELDS": {
 			"background": {
 				"allies.label": "Allies",
@@ -463,6 +467,7 @@
 			"trappings": "Trappings"
 		},
 		"WARNINGS": {
+			"missingChannelPower": "You're missing the Channel Power action card.",
 			"noExperienceLeft": "You have no Experience left.",
 			"notEnoughExperienceForAdvance": "You don't have enough Experience to buy this advance.",
 			"notEnoughExperienceForNonCareerAdvance": "You don't have enough Experience to buy a non-career advance.",
