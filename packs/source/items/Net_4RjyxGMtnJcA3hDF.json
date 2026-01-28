@@ -23,7 +23,7 @@
     },
     "description": "<p>A net designed to entangle, confuse and delay an enemy. This also includes similar weapons such as bolas. While ensnared by a net, the only manoeuvre a subject can take is to remove the net, which does not require a check.</p>",
     "encumbrance": 3,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "common"
   },
   "effects": [],

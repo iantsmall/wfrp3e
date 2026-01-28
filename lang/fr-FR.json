@@ -1786,6 +1786,12 @@
 			"long": "Longue",
 			"extreme": "Extrême"
 		},
+		"STATES": {
+			"bothHands": "Deux mains",
+			"mainHand": "Main directrice",
+			"offHand": "Main non-directrice",
+			"unequipped": "Non équipé"
+		},
 		"improvised": "Improvisé",
 		"improvisedWeapon": "Arme improvisée",
 		"unarmed": "Mains nues",

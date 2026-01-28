@@ -22,7 +22,7 @@
     },
     "description": "<p>A smaller, cheaper, shorter ranged version of the bow intended for combat while mounted.</p>",
     "encumbrance": 3,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "common"
   },
   "effects": [],

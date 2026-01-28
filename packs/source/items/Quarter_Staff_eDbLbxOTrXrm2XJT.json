@@ -23,7 +23,7 @@
     },
     "description": "<p>Little more than a long length of wood, this weapon can still be deadly in the hands of a trained specialist. When mastered, the quarter staff is capable of parrying and riposting almost faster than the eye can follow.</p>",
     "encumbrance": 3,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "abundant"
   },
   "effects": [],

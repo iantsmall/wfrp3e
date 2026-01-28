@@ -23,7 +23,7 @@
     },
     "description": "<p>This is a short sling attached to a long pole, designed to hurl its projectiles at a greater range and with more power than a normal sling. This weapon can fire sling bullets at a target at long range by adding {Dchal} to the dice pool. It gains no benefit from being of superior craftsmanship. It can be used as a quarter staff in melee combat. The sling’s values are based on using crafted bullets as ammunition, but stones can also be used. If normal stones are used, add {Dm} to the attack roll.</p>",
     "encumbrance": 4,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "rare"
   },
   "effects": [],

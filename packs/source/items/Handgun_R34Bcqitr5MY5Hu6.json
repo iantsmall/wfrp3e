@@ -35,7 +35,7 @@
     },
     "description": "<p>Sometimes called the harquebus, this is the standard blackpowder weapon of the Empire. It takes two hands to wield. Every handgun is handmade by a gunsmith and no two are exactly alike. The firing systems in use include matchlock, wheellock, and flintlock types, with flintlock weapons being considered the superior examples.</p>",
     "encumbrance": 4,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "rare"
   },
   "effects": [],

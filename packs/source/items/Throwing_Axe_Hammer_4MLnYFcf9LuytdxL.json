@@ -23,7 +23,7 @@
     },
     "description": "<p>Axes or hammers balanced for throwing.</p>",
     "encumbrance": 3,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "plentiful"
   },
   "effects": [],

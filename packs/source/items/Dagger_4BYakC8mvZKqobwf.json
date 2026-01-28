@@ -23,7 +23,7 @@
     },
     "description": "<p>A short stabbing knife or poniard, these weapons are ubiquitous throughout the Old World. They can be thrown (see throwing dagger below) but unless balanced, incur a misfortune die.</p>",
     "encumbrance": 2,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "plentiful"
   },
   "effects": [],

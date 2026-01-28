@@ -13,7 +13,7 @@
       "gold": 0
     },
     "encumbrance": 3,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "plentiful",
     "damageRating": 5,
     "criticalRating": 3,

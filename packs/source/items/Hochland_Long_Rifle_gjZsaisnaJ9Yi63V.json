@@ -35,7 +35,7 @@
     },
     "description": "<p>These magnificent pieces of craftsmanship are little seen outside of the armies of Hochland. The Hochland long rifle is a formidable long-ranged weapon with excellent accuracy.</p>",
     "encumbrance": 5,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "exotic"
   },
   "effects": [],

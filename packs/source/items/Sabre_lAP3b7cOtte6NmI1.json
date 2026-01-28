@@ -18,7 +18,7 @@
     },
     "description": "<p>The long, curved blade of a sabre is favoured among cavalry units, allowing their mount’s momentum to lend strength and power to the weapon’s slashes.</p>",
     "encumbrance": 3,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "rare"
   },
   "effects": [],

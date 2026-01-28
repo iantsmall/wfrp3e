@@ -35,7 +35,7 @@
     },
     "description": "<p>The blunderbuss is a primitive, wide-barrelled version of the handgun. Firing a hail of shrapnel and shot, this is no marksman’s weapon. It can cut through large swathes of enemies if the blast is properly placed, but it is time-consuming to reload.</p>",
     "encumbrance": 4,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "rare"
   },
   "effects": [],

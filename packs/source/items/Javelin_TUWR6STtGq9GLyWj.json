@@ -23,7 +23,7 @@
     },
     "description": "<p>The javelin is a short spear designed for throwing. Too flimsy to be used properly in melee combat, it counts as an improvised weapon when used in such a manner.</p>",
     "encumbrance": 1,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "common"
   },
   "effects": [],

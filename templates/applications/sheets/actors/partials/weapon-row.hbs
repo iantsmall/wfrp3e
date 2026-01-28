@@ -63,7 +63,17 @@
 		<hr />
 
 		<div class="equipped">
-			<input name="system.equipped" type="checkbox" {{checked weapon.system.equipped}} />
+			<input name="system.equipped"
+				   value="mainHand"
+				   type="checkbox"
+				   {{checked (or (eq weapon.system.equipped "mainHand") (eq weapon.system.equipped "bothHands"))}}
+				   data-tooltip="{{localize 'WEAPON.STATES.mainHand'}}" />
+
+			<input name="system.equipped"
+				   value="offHand"
+				   type="checkbox"
+				   {{checked (or (eq weapon.system.equipped "offHand") (eq weapon.system.equipped "bothHands"))}}
+				   data-tooltip="{{localize 'WEAPON.STATES.offHand'}}" />
 		</div>
 
 		<hr />

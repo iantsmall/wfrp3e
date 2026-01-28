@@ -27,7 +27,7 @@
     },
     "description": "<p>A slightly longer dagger designed to be used in the off hand to aid in parrying. It can be treated as an ordinary weapon rather than a fencing weapon, but loses its defensive quality as a consequence.</p>",
     "encumbrance": 2,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "rare"
   },
   "effects": [],

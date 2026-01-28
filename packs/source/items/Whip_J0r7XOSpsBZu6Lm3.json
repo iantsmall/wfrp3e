@@ -23,7 +23,7 @@
     },
     "description": "<p>The whip is a cord of leather or braided rope sometimes tipped with a barb or hook. Though painful, the whip does little real damage but can entangle an opponent.</p>",
     "encumbrance": 3,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "plentiful"
   },
   "effects": [],

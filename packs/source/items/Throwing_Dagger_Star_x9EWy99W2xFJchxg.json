@@ -23,7 +23,7 @@
     },
     "description": "<p>This includes any knife, dagger, shuriken, or dart specifically balanced to be thrown. In general, these count as improvised weapons if used in melee.</p>",
     "encumbrance": 1,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "plentiful"
   },
   "effects": [],

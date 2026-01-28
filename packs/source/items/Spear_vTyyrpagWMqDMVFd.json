@@ -31,7 +31,7 @@
     },
     "description": "<p>A long wooden haft with a pointed metal head, the spear is an ancient and versatile weapon. It can be wielded one-handed with a shield. It may also be wielded two-handed, increasing its damage rating by 1. It may also be effectively thrown up to close range.</p>",
     "encumbrance": 4,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "plentiful"
   },
   "effects": [],

@@ -23,7 +23,7 @@
     },
     "description": "<p>A lasso is simply a length of rope employed to snare an opponent. The wielder may force an enemy ensnared by his lasso to be dragged into engagement with him by performing the <strong>Perform a Stunt</strong> action and passing an opposed Strength check versus the target. A character ensnared by a lasso can escape if he spends a manoeuvre and passes an <strong>Average (2d) Agility check</strong>.</p>",
     "encumbrance": 2,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "plentiful"
   },
   "effects": [],

@@ -23,7 +23,7 @@
     },
     "description": "<p>A long, stout spear designed to be used by cavalry. It often has a flared cup near the handle for better control while mounted.</p>",
     "encumbrance": 4,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "common"
   },
   "effects": [],

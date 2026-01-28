@@ -271,6 +271,13 @@ export default class ActorSheet extends foundry.applications.api.HandlebarsAppli
 			element.addEventListener("change", listener);
 			element.changeListener = listener;
 		}
+
+		for(const element of this.element.querySelectorAll('.weapon[data-item-id] input[name="system.equipped"]')) {
+			const listener = this._onWeaponStateChange.bind(this, options);
+			element.removeEventListener("change", element.changeListener);
+			element.addEventListener("change", listener);
+			element.changeListener = listener;
+		}
 	}
 
 	/**
@@ -441,6 +448,37 @@ export default class ActorSheet extends foundry.applications.api.HandlebarsAppli
 		}
 		else
 			await item.update({[name]: value});
+	}
+
+	/**
+	 * Updates an embedded Weapon whenever its equipment state is changed.
+	 * @param {RenderOptions} options
+	 * @param {Event} event
+	 * @returns {Promise<void>}
+	 * @protected
+	 */
+	async _onWeaponStateChange(options, event)
+	{
+		event.preventDefault();
+		event.stopPropagation();
+
+		const input = event.target,
+			  weapon = this.actor.items.get(input.closest("[data-item-id]").dataset.itemId),
+			  name = input.name,
+			  initial = foundry.utils.getProperty(weapon, name);
+		let value = input.value;
+
+		if(value === initial)
+			value = "unequipped";
+		else if(["mainHand", "offHand"].includes(initial))
+			value = "bothHands";
+		else if(initial === "bothHands")
+			if(value === "mainHand")
+				value = "offHand";
+			else if(value === "offHand")
+				value = "mainHand";
+
+		await weapon.update({[name]: value});
 	}
 
 	/**

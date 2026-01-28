@@ -1786,6 +1786,12 @@
 			"long": "Long",
 			"extreme": "Extreme"
 		},
+		"STATES": {
+			"bothHands": "Both hands",
+			"mainHand": "Main hand",
+			"offHand": "Off-hand",
+			"unequipped": "Unequipped"
+		},
 		"improvised": "Improvised",
 		"improvisedWeapon": "Improvised Weapon",
 		"unarmed": "Unarmed",

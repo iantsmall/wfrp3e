@@ -18,7 +18,7 @@
     },
     "description": "<p>A simple yet deadly weapon, the sling is a strip of leather for hurling crafted bullets, rocks, or stones. Slings gain no benefit from being of superior craftsmanship.</p>",
     "encumbrance": 0,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "plentiful"
   },
   "effects": [],

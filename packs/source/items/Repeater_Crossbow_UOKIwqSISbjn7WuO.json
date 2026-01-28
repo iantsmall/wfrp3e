@@ -12,6 +12,7 @@
       "gold": 3
     },
     "encumbrance": 4,
+    "equipped": "unequipped",
     "rarity": "exotic",
     "damageRating": 4,
     "criticalRating": 3,

@@ -23,7 +23,7 @@
     },
     "description": "<p>The rapier is an elegant noble’s weapon. Fast and effective, it allows for dazzling displays of swordsmanship. The downside is that its reputation as a weapon of the upper class means it is often wildly overpriced.</p>",
     "encumbrance": 3,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "rare"
   },
   "effects": [],

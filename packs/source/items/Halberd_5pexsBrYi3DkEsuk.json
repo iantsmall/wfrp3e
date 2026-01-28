@@ -23,7 +23,7 @@
     },
     "description": "<p>A heavy axe mounted at the end of the long haft, the halberd is a versatile weapon often used by militias and the town watch.</p>",
     "encumbrance": 5,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "common"
   },
   "effects": [],

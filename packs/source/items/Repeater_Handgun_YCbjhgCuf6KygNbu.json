@@ -30,7 +30,7 @@
     },
     "description": "<p>A complex clockwork firearm with six barrels. The cutting edge of Imperial military technology, these devices are heavy, expensive, and notoriously unreliable.</p>",
     "encumbrance": 5,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "exotic"
   },
   "effects": [],

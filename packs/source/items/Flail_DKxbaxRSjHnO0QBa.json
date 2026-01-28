@@ -31,7 +31,7 @@
     },
     "description": "<p>A zealot’s weapon sometimes used for self flagellation, a long wooden handle supports a tangled mass of heavy chain, spiked iron spheres, and wicked hooks. It is an awkward weapon that must be wielded two-handed, but when it lands a blow it inflicts horrendous wounds.</p>",
     "encumbrance": 6,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "rare"
   },
   "effects": [],

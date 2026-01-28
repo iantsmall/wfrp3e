@@ -23,7 +23,7 @@
     },
     "description": "<p>A flail with one chain and ball making it far easier to control though less damaging. A morning star is difficult to block because it can wrap around shields.</p>",
     "encumbrance": 4,
-    "equipped": false,
+    "equipped": "unequipped",
     "rarity": "rare"
   },
   "effects": [],

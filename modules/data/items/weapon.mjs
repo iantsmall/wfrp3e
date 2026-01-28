@@ -19,7 +19,11 @@ export default class Weapon extends Trapping
 		return Object.assign({
 			criticalRating: new fields.NumberField({initial: 5, integer: true, min: 0, nullable: false, required: true}),
 			damageRating: new fields.NumberField({initial: 3, integer: true, min: 0, nullable: false, required: true}),
-			equipped: new fields.BooleanField(),
+			equipped: new fields.StringField({
+				choices: Weapon.STATES,
+				initial: Object.keys(Weapon.STATES)[0],
+				required: true
+			}),
 			group: new fields.StringField({
 				choices: groups,
 				initial: Object.keys(Weapon.GROUPS)[0],
@@ -206,6 +210,13 @@ export default class Weapon extends Trapping
 		extreme: "WEAPON.RANGES.extreme"
 	};
 
+	static STATES = {
+		unequipped: "WEAPON.STATES.unequipped",
+		mainHand: "WEAPON.STATES.mainHand",
+		offHand: "WEAPON.STATES.offHand",
+		bothHands: "WEAPON.STATES.bothHands"
+	}
+
 	static get fastEffect()
 	{
 		return {
@@ -223,6 +234,9 @@ export default class Weapon extends Trapping
 		for(const [index, quality] of source.qualities.entries())
 			if(quality.name === "twohanded")
 				source.qualities[index].name = "twoHanded";
+
+		/*if(typeof source.equipped === "boolean")
+			source.equipped = "unequipped";*/
 
 		return super.migrateData(source);
 	}
