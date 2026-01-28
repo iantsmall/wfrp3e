@@ -27,6 +27,7 @@
 		"CARDS": {
 			"block": "Blocage",
 			"channelPower": "Channel Power",
+			"curryFavour": "Curry Favour",
 			"meleeStrike": "Attaque au corps-à-corps",
 			"rangedShot": "Tir à distance"
 		},
@@ -419,7 +420,8 @@
 	"CHARACTER": {
 		"ACTIONS": {
 			"addBasicSkills": "Ajouter les compétences de base",
-			"channelPower": "Channel Power"
+			"channelPower": "Channel Power",
+			"curryFavour": "Curry Favour"
 		},
 		"FIELDS": {
 			"background": {
@@ -468,6 +470,7 @@
 		},
 		"WARNINGS": {
 			"missingChannelPower": "You're missing the Channel Power action card.",
+			"missingCurryFavour": "You're missing the Curry Favour action card.",
 			"noExperienceLeft": "Vous n'avez pas d'expérience à dépenser.",
 			"notEnoughExperienceForAdvance": "Vous n'avez pas assez d'expérience pour acheter cette augmentation.",
 			"notEnoughExperienceForNonCareerAdvance": "Vous n'avez pas assez d'expérience pour acheter une augmentation extracurriculaire.",

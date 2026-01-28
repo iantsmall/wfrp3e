@@ -8,6 +8,7 @@ export default class CharacterSheet extends ActorSheet
 		actions: {
 			addBasicSkills: this.#addBasicSkills,
 			channelPower: this.#channelPower,
+			curryFavour: this.#curryFavour
 		},
 		classes: ["character"],
 		position: {
@@ -214,6 +215,23 @@ export default class CharacterSheet extends ActorSheet
 
 		if(!item)
 			ui.notifications.error(game.i18n.localize("CHARACTER.WARNINGS.missingChannelPower"));
+
+		await item.use({face: this.actor.system.currentStanceName});
+	}
+
+	/**
+	 * Starts an action check with the Curry Favour Action.
+	 * @return {Promise<void>}
+	 * @private
+	 */
+	static async #curryFavour()
+	{
+		const item = this.actor.itemTypes.action.find(action => {
+			return action.name === game.i18n.localize("ACTION.CARDS.curryFavour")
+		});
+
+		if(!item)
+			ui.notifications.error(game.i18n.localize("CHARACTER.WARNINGS.missingCurryFavour"));
 
 		await item.use({face: this.actor.system.currentStanceName});
 	}
