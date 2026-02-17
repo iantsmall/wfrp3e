@@ -128,7 +128,7 @@ export default class Actor extends foundry.abstract.TypeDataModel
 	 */
 	get damageReduction()
 	{
-		return this.system.characteristics.toughness.rating + this.system.totalSoak;
+		return this.characteristics.toughness.rating + this.totalSoak;
 	}
 
 	/**

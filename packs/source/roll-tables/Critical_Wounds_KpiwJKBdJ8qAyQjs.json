@@ -13,9 +13,9 @@
       "drawn": false,
       "_id": "3XucCL3YOio9fIzt",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-pain-body-orange.webp",
       "name": "Aches and Pains",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.MRNR11HzgwX6fHrg",
+      "documentUuid": "Compendium.wfrp3e.items.Item.MRNR11HzgwX6fHrg",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.3XucCL3YOio9fIzt"
     },
@@ -29,9 +29,9 @@
       "drawn": false,
       "_id": "6BFV9Q1d7RzYTUIU",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-pain-body-orange.webp",
       "name": "Aches and Pains (SR: 3)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.4tCUpnZUREiDmAt4",
+      "documentUuid": "Compendium.wfrp3e.items.Item.4tCUpnZUREiDmAt4",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.6BFV9Q1d7RzYTUIU"
     },
@@ -45,9 +45,9 @@
       "drawn": false,
       "_id": "rIc8C7kvuTRYY32e",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-stitched-flesh-red.webp",
       "name": "Aggravated Wound",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.LDePyFaC0Owqclw1",
+      "documentUuid": "Compendium.wfrp3e.items.Item.LDePyFaC0Owqclw1",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.rIc8C7kvuTRYY32e"
     },
@@ -61,9 +61,9 @@
       "drawn": false,
       "_id": "r7EBegBh8Vecp4Yy",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-stitched-flesh-red.webp",
       "name": "Aggravated Wound (SR: 3)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.NwWx3nu8TztdjXdi",
+      "documentUuid": "Compendium.wfrp3e.items.Item.NwWx3nu8TztdjXdi",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.r7EBegBh8Vecp4Yy"
     },
@@ -77,9 +77,9 @@
       "drawn": false,
       "_id": "RVHOAI3pIYIc8ihK",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-bone-joint.webp",
       "name": "Annoying Injury",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.NB0gQhZ9U3zeV0T5",
+      "documentUuid": "Compendium.wfrp3e.items.Item.NB0gQhZ9U3zeV0T5",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.RVHOAI3pIYIc8ihK"
     },
@@ -93,9 +93,9 @@
       "drawn": false,
       "_id": "7UIjmXRzRLkqQK40",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-eyes-blood-red-pink.webp",
       "name": "Blood in the Eyes",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.OtSLwkhE0fWCU2vd",
+      "documentUuid": "Compendium.wfrp3e.items.Item.OtSLwkhE0fWCU2vd",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.7UIjmXRzRLkqQK40"
     },
@@ -109,9 +109,9 @@
       "drawn": false,
       "_id": "lJyrr0EX8EzvKKfD",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-face-impact-orange.webp",
       "name": "Blow to the Head",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.1YlsG9eZC1gvVc8K",
+      "documentUuid": "Compendium.wfrp3e.items.Item.1YlsG9eZC1gvVc8K",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.lJyrr0EX8EzvKKfD"
     },
@@ -125,15 +125,15 @@
       "drawn": false,
       "_id": "8OZPhA6hwlI407Dy",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-face-impact-orange.webp",
       "name": "Broken Nose",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.P9ChlxzAJpqLCfwe",
+      "documentUuid": "Compendium.wfrp3e.items.Item.P9ChlxzAJpqLCfwe",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.8OZPhA6hwlI407Dy"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         9,
         10
@@ -141,15 +141,15 @@
       "drawn": false,
       "_id": "Zqdcz7DI84Smno6m",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-pain-body-orange.webp",
       "name": "Broken Rib",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.7t5a3kLWsORAwdAw",
+      "documentUuid": "Compendium.wfrp3e.items.Item.7t5a3kLWsORAwdAw",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.Zqdcz7DI84Smno6m"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 4,
       "range": [
         11,
         14
@@ -157,15 +157,15 @@
       "drawn": false,
       "_id": "nty8a5nk7pYABjSq",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
       "name": "Concussion",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.Rvc2xUFQwtap9jdX",
+      "documentUuid": "Compendium.wfrp3e.items.Item.Rvc2xUFQwtap9jdX",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.nty8a5nk7pYABjSq"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         15,
         16
@@ -173,15 +173,15 @@
       "drawn": false,
       "_id": "2mEMgctbgzZ41WXo",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
       "name": "Concussion (SR: 2)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.JuLzcsYAdxUy2vYk",
+      "documentUuid": "Compendium.wfrp3e.items.Item.JuLzcsYAdxUy2vYk",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.2mEMgctbgzZ41WXo"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         17,
         18
@@ -189,15 +189,15 @@
       "drawn": false,
       "_id": "pWSuRLAMoS9yiYJy",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-body-pain-gray.webp",
       "name": "Constant Pain",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.qXIWyffoIKDOd18p",
+      "documentUuid": "Compendium.wfrp3e.items.Item.qXIWyffoIKDOd18p",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.pWSuRLAMoS9yiYJy"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         19,
         20
@@ -205,15 +205,15 @@
       "drawn": false,
       "_id": "f9nX9fnYumfzCYI4",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/blood-spurt-spray-red.webp",
       "name": "Crushing Blow",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.hAYTgV0j9RqtqduD",
+      "documentUuid": "Compendium.wfrp3e.items.Item.hAYTgV0j9RqtqduD",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.f9nX9fnYumfzCYI4"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         21,
         22
@@ -221,9 +221,9 @@
       "drawn": false,
       "_id": "mXOuGFC2rdxObOQI",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-stitched-flesh-red.webp",
       "name": "Deep Wound",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.MGPEVFfjGePnejkW",
+      "documentUuid": "Compendium.wfrp3e.items.Item.MGPEVFfjGePnejkW",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.mXOuGFC2rdxObOQI"
     },
@@ -237,9 +237,9 @@
       "drawn": false,
       "_id": "IDeJ4DPSxrDyZqoK",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-eyes-blood-red-pink.webp",
       "name": "Disfiguring Scar",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.D7wo5RExYQPVjRAE",
+      "documentUuid": "Compendium.wfrp3e.items.Item.D7wo5RExYQPVjRAE",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.IDeJ4DPSxrDyZqoK"
     },
@@ -253,9 +253,9 @@
       "drawn": false,
       "_id": "zfoBL6kn9ROZrd4X",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
       "name": "Dislocated Shoulder",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.JOD9Z13bxGFYQt35",
+      "documentUuid": "Compendium.wfrp3e.items.Item.JOD9Z13bxGFYQt35",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.zfoBL6kn9ROZrd4X"
     },
@@ -269,9 +269,9 @@
       "drawn": false,
       "_id": "nW6yAEJEx6443rs6",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/svg/daze.svg",
       "name": "Disoriented",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.y2tEsiaCZh5PcXSm",
+      "documentUuid": "Compendium.wfrp3e.items.Item.y2tEsiaCZh5PcXSm",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.nW6yAEJEx6443rs6"
     },
@@ -285,9 +285,9 @@
       "drawn": false,
       "_id": "eBt3k0q4Y5BwbwM5",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
       "name": "Distracting Injury",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.xZwUzhT8CMm3Ih8w",
+      "documentUuid": "Compendium.wfrp3e.items.Item.xZwUzhT8CMm3Ih8w",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.eBt3k0q4Y5BwbwM5"
     },
@@ -301,9 +301,9 @@
       "drawn": false,
       "_id": "Tun3xya1SSghF0xZ",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-body-pain-gray.webp",
       "name": "Exposed Weakness",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.YB5GFj1kjw79A7m7",
+      "documentUuid": "Compendium.wfrp3e.items.Item.YB5GFj1kjw79A7m7",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.Tun3xya1SSghF0xZ"
     },
@@ -317,15 +317,15 @@
       "drawn": false,
       "_id": "5YK7E6QjCxVfHe4i",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-body-pain-gray.webp",
       "name": "Exposed Weakness (SR: 3)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.1CZG1lw1dn0fQ4a0",
+      "documentUuid": "Compendium.wfrp3e.items.Item.1CZG1lw1dn0fQ4a0",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.5YK7E6QjCxVfHe4i"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 6,
       "range": [
         31,
         36
@@ -333,15 +333,15 @@
       "drawn": false,
       "_id": "TNlxf1ug7Tevx9wK",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
       "name": "Flesh Wound",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.tLvGOEJlOWUXyJm5",
+      "documentUuid": "Compendium.wfrp3e.items.Item.tLvGOEJlOWUXyJm5",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.TNlxf1ug7Tevx9wK"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         29,
         30
@@ -349,9 +349,9 @@
       "drawn": false,
       "_id": "eDefZltjMIWLiAjO",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/blood-cells-disease-green.webp",
       "name": "Festering Wound",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.EpE7x4y75R7NRgmI",
+      "documentUuid": "Compendium.wfrp3e.items.Item.EpE7x4y75R7NRgmI",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.eDefZltjMIWLiAjO"
     },
@@ -365,9 +365,9 @@
       "drawn": false,
       "_id": "7eCWdqCD4U6F7Kpb",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-eyes-blood-red-pink.webp",
       "name": "Gruesome Bruise",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.yzEWJsNkTcLVWrsP",
+      "documentUuid": "Compendium.wfrp3e.items.Item.yzEWJsNkTcLVWrsP",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.7eCWdqCD4U6F7Kpb"
     },
@@ -381,9 +381,9 @@
       "drawn": false,
       "_id": "euezXBjnkESSKjZO",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-bone-joint.webp",
       "name": "Grievous Injury",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.pRStoeNFwfBV4ZeV",
+      "documentUuid": "Compendium.wfrp3e.items.Item.pRStoeNFwfBV4ZeV",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.euezXBjnkESSKjZO"
     },
@@ -397,15 +397,15 @@
       "drawn": false,
       "_id": "ScVIG8d2IfLWXAVW",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-stitched-flesh-red.webp",
       "name": "Horrible Gash",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.NepQQTC5YeeqWMeg",
+      "documentUuid": "Compendium.wfrp3e.items.Item.NepQQTC5YeeqWMeg",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.ScVIG8d2IfLWXAVW"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         39,
         40
@@ -413,15 +413,15 @@
       "drawn": false,
       "_id": "LAUFEDix2yNCalky",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
       "name": "Hideous Injury",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.Lrfj0U90zkZ8W1Sj",
+      "documentUuid": "Compendium.wfrp3e.items.Item.Lrfj0U90zkZ8W1Sj",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.LAUFEDix2yNCalky"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         42,
         43
@@ -429,15 +429,15 @@
       "drawn": false,
       "_id": "tdaX3thz9bDfS1px",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/blood-cells-vessel-red.webp",
       "name": "Internal Bleeding",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.EYFVK3VJaiwSH5vK",
+      "documentUuid": "Compendium.wfrp3e.items.Item.EYFVK3VJaiwSH5vK",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.tdaX3thz9bDfS1px"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         44,
         45
@@ -445,9 +445,9 @@
       "drawn": false,
       "_id": "UGwS4zeMpFiMQAa7",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-triple-slash-bleed.webp",
       "name": "Low Blow",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.VP45sfMS5utNqzK4",
+      "documentUuid": "Compendium.wfrp3e.items.Item.VP45sfMS5utNqzK4",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.UGwS4zeMpFiMQAa7"
     },
@@ -461,9 +461,9 @@
       "drawn": false,
       "_id": "GNAvbiBJmrXroCp8",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-eyes-blood-red.webp",
       "name": "Mangled Eye",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.bq14hiTnQM5Ab8ud",
+      "documentUuid": "Compendium.wfrp3e.items.Item.bq14hiTnQM5Ab8ud",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.GNAvbiBJmrXroCp8"
     },
@@ -477,9 +477,9 @@
       "drawn": false,
       "_id": "SfKchJyQxx3CSOeE",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-hand-blood-red.webp",
       "name": "Mangled Limb",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.HwMsFhT25Da1YIbf",
+      "documentUuid": "Compendium.wfrp3e.items.Item.HwMsFhT25Da1YIbf",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.SfKchJyQxx3CSOeE"
     },
@@ -493,9 +493,9 @@
       "drawn": false,
       "_id": "FUJLNu6bza8XoBUG",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-hand-blood-red.webp",
       "name": "Mangled Limb (SR: 3)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.E3JStQHoB3XQHFlK",
+      "documentUuid": "Compendium.wfrp3e.items.Item.E3JStQHoB3XQHFlK",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.FUJLNu6bza8XoBUG"
     },
@@ -509,9 +509,9 @@
       "drawn": false,
       "_id": "8uw4b5E6lUamNn3L",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
       "name": "Minor Nuisance (Intelligence)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.0rSfF9z5AqCSvnbm",
+      "documentUuid": "Compendium.wfrp3e.items.Item.0rSfF9z5AqCSvnbm",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.8uw4b5E6lUamNn3L"
     },
@@ -525,9 +525,9 @@
       "drawn": false,
       "_id": "9ifa5lH38pmOFJU9",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
       "name": "Minor Nuisance (Willpower)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.RckF6CO8uBeQrckU",
+      "documentUuid": "Compendium.wfrp3e.items.Item.RckF6CO8uBeQrckU",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.9ifa5lH38pmOFJU9"
     },
@@ -541,9 +541,9 @@
       "drawn": false,
       "_id": "WaCbLCTHtZiMTYco",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
       "name": "Minor Nuisance (Fellowship)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.lO1WHpRM3b6DoAO1",
+      "documentUuid": "Compendium.wfrp3e.items.Item.lO1WHpRM3b6DoAO1",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.WaCbLCTHtZiMTYco"
     },
@@ -557,9 +557,9 @@
       "drawn": false,
       "_id": "eSlJ2JmSUml24xEV",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
       "name": "Minor Nuisance (Strength)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.qilnTHvFMZivXW8T",
+      "documentUuid": "Compendium.wfrp3e.items.Item.qilnTHvFMZivXW8T",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.eSlJ2JmSUml24xEV"
     },
@@ -573,9 +573,9 @@
       "drawn": false,
       "_id": "jyE7Uwvl3fgNkYh6",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
       "name": "Minor Nuisance (Toughness)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.oPC6gNBXN3Mne3uw",
+      "documentUuid": "Compendium.wfrp3e.items.Item.oPC6gNBXN3Mne3uw",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.jyE7Uwvl3fgNkYh6"
     },
@@ -589,9 +589,9 @@
       "drawn": false,
       "_id": "9st3Wr7EpZbTtD2X",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
       "name": "Minor Nuisance (Agility)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.nn6DGH7B0qAvtmSj",
+      "documentUuid": "Compendium.wfrp3e.items.Item.nn6DGH7B0qAvtmSj",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.9st3Wr7EpZbTtD2X"
     },
@@ -605,9 +605,9 @@
       "drawn": false,
       "_id": "F8ugMGD0XTRUe7JP",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
       "name": "Minor Trauma (Intelligence)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.GqQuftcbS3a0FjVS",
+      "documentUuid": "Compendium.wfrp3e.items.Item.GqQuftcbS3a0FjVS",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.F8ugMGD0XTRUe7JP"
     },
@@ -621,9 +621,9 @@
       "drawn": false,
       "_id": "HLfVrqnLUObL09U3",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
       "name": "Minor Trauma (Willpower)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.rhMVxb3wb5x5SA0w",
+      "documentUuid": "Compendium.wfrp3e.items.Item.rhMVxb3wb5x5SA0w",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.HLfVrqnLUObL09U3"
     },
@@ -637,9 +637,9 @@
       "drawn": false,
       "_id": "rtJ62d6uynpSFugP",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
       "name": "Minor Trauma (Fellowship)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.n3MGtsT8JzUJHsOb",
+      "documentUuid": "Compendium.wfrp3e.items.Item.n3MGtsT8JzUJHsOb",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.rtJ62d6uynpSFugP"
     },
@@ -653,9 +653,9 @@
       "drawn": false,
       "_id": "7SNrrAjre53iRcjW",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
       "name": "Minor Trauma (Strength)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.LTSbWeYosOXCkFvp",
+      "documentUuid": "Compendium.wfrp3e.items.Item.LTSbWeYosOXCkFvp",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.7SNrrAjre53iRcjW"
     },
@@ -669,9 +669,9 @@
       "drawn": false,
       "_id": "1Hg7CkfbLphpYz5B",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
       "name": "Minor Trauma (Toughness)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.Am3FHoqdvnuE6yvW",
+      "documentUuid": "Compendium.wfrp3e.items.Item.Am3FHoqdvnuE6yvW",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.1Hg7CkfbLphpYz5B"
     },
@@ -685,15 +685,15 @@
       "drawn": false,
       "_id": "UwsFLhjahOqLurRu",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
       "name": "Minor Trauma (Agility)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.U6Z0LScLGU8N4llf",
+      "documentUuid": "Compendium.wfrp3e.items.Item.U6Z0LScLGU8N4llf",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.UwsFLhjahOqLurRu"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         61,
         62
@@ -701,9 +701,9 @@
       "drawn": false,
       "_id": "IhrCyfQd3InOGIsc",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-bone-joint.webp",
       "name": "Nagging Injury",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.qVqYMPBLaQdRXMmG",
+      "documentUuid": "Compendium.wfrp3e.items.Item.qVqYMPBLaQdRXMmG",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.IhrCyfQd3InOGIsc"
     },
@@ -717,15 +717,15 @@
       "drawn": false,
       "_id": "EssPxNJ1l6j7kFi8",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-pain-body-orange.webp",
       "name": "Painful Blow",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.FN1grAIa4e2qcoBS",
+      "documentUuid": "Compendium.wfrp3e.items.Item.FN1grAIa4e2qcoBS",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.EssPxNJ1l6j7kFi8"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         64,
         65
@@ -733,9 +733,9 @@
       "drawn": false,
       "_id": "UaDz3Kq4WkTMoW1O",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-face-impact-orange.webp",
       "name": "Painful Injury",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.5G8TPQbmAv8ZipzA",
+      "documentUuid": "Compendium.wfrp3e.items.Item.5G8TPQbmAv8ZipzA",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.UaDz3Kq4WkTMoW1O"
     },
@@ -749,9 +749,9 @@
       "drawn": false,
       "_id": "F15eVFmOF6aqOvpv",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-pain-body-orange.webp",
       "name": "Pulled Muscle",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.OiMiWOWZ9m3nqQ2U",
+      "documentUuid": "Compendium.wfrp3e.items.Item.OiMiWOWZ9m3nqQ2U",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.F15eVFmOF6aqOvpv"
     },
@@ -765,9 +765,9 @@
       "drawn": false,
       "_id": "gnm9UICm9NbiOWeC",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-pain-body-orange.webp",
       "name": "Pulled Muscle (SR: 3)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.soxU6wYrSDg3rgKN",
+      "documentUuid": "Compendium.wfrp3e.items.Item.soxU6wYrSDg3rgKN",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.gnm9UICm9NbiOWeC"
     },
@@ -781,9 +781,9 @@
       "drawn": false,
       "_id": "EmOQErA2iDz9i2X2",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/svg/daze.svg",
       "name": "Ringing Blow",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.SqxxoMfnx0bWYdFa",
+      "documentUuid": "Compendium.wfrp3e.items.Item.SqxxoMfnx0bWYdFa",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.EmOQErA2iDz9i2X2"
     },
@@ -797,9 +797,9 @@
       "drawn": false,
       "_id": "LdXBfCTfcQu9Kbev",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-face-impact-orange.webp",
       "name": "Ringing Skull",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.ZYqBLiDWdhswSQSY",
+      "documentUuid": "Compendium.wfrp3e.items.Item.ZYqBLiDWdhswSQSY",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.LdXBfCTfcQu9Kbev"
     },
@@ -813,9 +813,9 @@
       "drawn": false,
       "_id": "iL17hQKwo4JWGvl5",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-face-impact-orange.webp",
       "name": "Ringing Skull (SR: 3)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.CV7UEzfTxwoJ2wzy",
+      "documentUuid": "Compendium.wfrp3e.items.Item.CV7UEzfTxwoJ2wzy",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.iL17hQKwo4JWGvl5"
     },
@@ -829,9 +829,9 @@
       "drawn": false,
       "_id": "2vaeEUsQSfyejZYx",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-face-impact-orange.webp",
       "name": "Ringing Skull (SR: 4)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.Daf5DGGPtH2JC5QL",
+      "documentUuid": "Compendium.wfrp3e.items.Item.Daf5DGGPtH2JC5QL",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.2vaeEUsQSfyejZYx"
     },
@@ -845,9 +845,9 @@
       "drawn": false,
       "_id": "EFRBaGEQK28yuOnT",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/blood-spurt-spray-red.webp",
       "name": "Ruptured Spleen",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.oI2KqtuI1XfYRdqd",
+      "documentUuid": "Compendium.wfrp3e.items.Item.oI2KqtuI1XfYRdqd",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.EFRBaGEQK28yuOnT"
     },
@@ -861,9 +861,9 @@
       "drawn": false,
       "_id": "pR1J4UsfXA40Fsft",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/blood-spurt-spray-red.webp",
       "name": "Ruptured Spleen (SR: 3)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.AjxtWqTlaTDCyeAI",
+      "documentUuid": "Compendium.wfrp3e.items.Item.AjxtWqTlaTDCyeAI",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.pR1J4UsfXA40Fsft"
     },
@@ -877,9 +877,9 @@
       "drawn": false,
       "_id": "vrMxnPkqd78VI4wn",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-pain-body-orange.webp",
       "name": "Seething Pain",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.G0W4hnFzjfBe09zA",
+      "documentUuid": "Compendium.wfrp3e.items.Item.G0W4hnFzjfBe09zA",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.vrMxnPkqd78VI4wn"
     },
@@ -893,9 +893,9 @@
       "drawn": false,
       "_id": "WNzWjK3ddgTQKnSz",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-pain-body-orange.webp",
       "name": "Severe Sprain",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.2eoorhjb9kcPVRTI",
+      "documentUuid": "Compendium.wfrp3e.items.Item.2eoorhjb9kcPVRTI",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.WNzWjK3ddgTQKnSz"
     },
@@ -909,9 +909,9 @@
       "drawn": false,
       "_id": "Vd2OrRBKNtRMJMK6",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
       "name": "Short of Breath",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.uAsX7MtLXmWMsO0q",
+      "documentUuid": "Compendium.wfrp3e.items.Item.uAsX7MtLXmWMsO0q",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.Vd2OrRBKNtRMJMK6"
     },
@@ -925,9 +925,9 @@
       "drawn": false,
       "_id": "0LRzv4ssJKoAged6",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
       "name": "Short of Breath (SR: 3)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.xH5C9UlTlsdtOniZ",
+      "documentUuid": "Compendium.wfrp3e.items.Item.xH5C9UlTlsdtOniZ",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.0LRzv4ssJKoAged6"
     },
@@ -941,9 +941,9 @@
       "drawn": false,
       "_id": "3BhkfcFHCqAtMW0g",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-face-impact-orange.webp",
       "name": "Sickening Blow",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.5lrAlPC6LyFTZDRn",
+      "documentUuid": "Compendium.wfrp3e.items.Item.5lrAlPC6LyFTZDRn",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.3BhkfcFHCqAtMW0g"
     },
@@ -957,9 +957,9 @@
       "drawn": false,
       "_id": "qv45TEbxn6s7A18j",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-face-impact-orange.webp",
       "name": "Sickening Blow (SR: 3)",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.aer1WeEa1yxMfA8s",
+      "documentUuid": "Compendium.wfrp3e.items.Item.aer1WeEa1yxMfA8s",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.qv45TEbxn6s7A18j"
     },
@@ -973,15 +973,15 @@
       "drawn": false,
       "_id": "awInNiWJWpoT5X6x",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-hand-blood-red.webp",
       "name": "Smashed Fingers",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.JcGKZKSe5yyii7BE",
+      "documentUuid": "Compendium.wfrp3e.items.Item.JcGKZKSe5yyii7BE",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.awInNiWJWpoT5X6x"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         82,
         83
@@ -989,15 +989,15 @@
       "drawn": false,
       "_id": "ntoKv19NZ8yYw6L5",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
       "name": "Smashed Limb",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.zQCtYWbEr5DTa32u",
+      "documentUuid": "Compendium.wfrp3e.items.Item.zQCtYWbEr5DTa32u",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.ntoKv19NZ8yYw6L5"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         84,
         85
@@ -1005,15 +1005,15 @@
       "drawn": false,
       "_id": "aLmZpBDyYW1Yy4xQ",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/commodities/bones/tooth-molar-white.webp",
       "name": "Spitting Teeth",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.sIyc96d59QRi6oJO",
+      "documentUuid": "Compendium.wfrp3e.items.Item.sIyc96d59QRi6oJO",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.aLmZpBDyYW1Yy4xQ"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         86,
         87
@@ -1021,9 +1021,9 @@
       "drawn": false,
       "_id": "uxiaDcIPZpde2x0v",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-eyes-blood-red.webp",
       "name": "Swimming Vision",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.dRUG0D7k96SL69ee",
+      "documentUuid": "Compendium.wfrp3e.items.Item.dRUG0D7k96SL69ee",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.uxiaDcIPZpde2x0v"
     },
@@ -1037,15 +1037,15 @@
       "drawn": false,
       "_id": "ZWYWXwlzaRSh4TK3",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-hand-blood-red.webp",
       "name": "Traumatic Blow",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.PMTIRZJP3faj8eiY",
+      "documentUuid": "Compendium.wfrp3e.items.Item.PMTIRZJP3faj8eiY",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.ZWYWXwlzaRSh4TK3"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         89,
         90
@@ -1053,9 +1053,9 @@
       "drawn": false,
       "_id": "oIRY74kh3ma8NM4E",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/anatomy-bone-joint.webp",
       "name": "Twisted Joint",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.tIf58PvCr0VgItke",
+      "documentUuid": "Compendium.wfrp3e.items.Item.tIf58PvCr0VgItke",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.oIRY74kh3ma8NM4E"
     },
@@ -1069,9 +1069,9 @@
       "drawn": false,
       "_id": "yy3v6VQVUyagWriE",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/blood-cells-disease-green.webp",
       "name": "Weeping Sore",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.OSYvZBCre9Oe8jnV",
+      "documentUuid": "Compendium.wfrp3e.items.Item.OSYvZBCre9Oe8jnV",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.yy3v6VQVUyagWriE"
     },
@@ -1085,15 +1085,15 @@
       "drawn": false,
       "_id": "K0nJUxUUEpkcwUzT",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-hand-blood-red.webp",
       "name": "Worrisome Blow",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.Wy2hOk8kIE6hcxj0",
+      "documentUuid": "Compendium.wfrp3e.items.Item.Wy2hOk8kIE6hcxj0",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.K0nJUxUUEpkcwUzT"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         93,
         94
@@ -1101,15 +1101,15 @@
       "drawn": false,
       "_id": "jFicxShWZgSeAM7q",
       "flags": {},
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/wounds/injury-pain-body-orange.webp",
       "name": "Wrenched Back",
-      "documentUuid": "Compendium.world.wfrp3e-items.Item.EpA4OJ6fjK7s4Ymf",
+      "documentUuid": "Compendium.wfrp3e.items.Item.EpA4OJ6fjK7s4Ymf",
       "description": "",
       "_key": "!tables.results!KpiwJKBdJ8qAyQjs.jFicxShWZgSeAM7q"
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 4,
       "range": [
         95,
         98
@@ -1125,7 +1125,7 @@
     },
     {
       "type": "document",
-      "weight": 1,
+      "weight": 2,
       "range": [
         99,
         100

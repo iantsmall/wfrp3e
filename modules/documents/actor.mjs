@@ -304,7 +304,7 @@ export default class Actor extends foundry.documents.Actor
 			if(criticalDamages > 0)
 				criticalWounds = await this.createEmbeddedDocuments(
 					"Item",
-					await this.drawCriticalWoundsRandomly(criticalDamages)
+					await Actor.drawCriticalWoundsRandomly(criticalDamages)
 				);
 		}
 
