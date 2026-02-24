@@ -1681,7 +1681,7 @@
 				},
 				"label": "Qualities"
 			},
-			"range": "Range",
+			"range.label": "Range",
 			"special": "Special"
 		},
 		"GROUPS": {
