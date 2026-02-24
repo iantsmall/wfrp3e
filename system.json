@@ -9,8 +9,9 @@
 	},
 	"authors": [{
 		"name": "Grégory Gauthier",
-		"email": "gregory.gauthier@mailo.com",
-		"flags": {}
+		"email": "gregory.gauthier@mailo.com"
+	}, {
+		"name": "Mark Jack Sundahl"
 	}],
 	"esmodules": [
 		"wfrp3e.mjs"
