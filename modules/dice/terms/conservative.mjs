@@ -42,8 +42,10 @@ export default class ConservativeDie extends Die
 		},
 		8: {
 			name: "oneSuccessOneBoon",
-			successes: 1,
-			symbols: {boons: 1}
+			symbols: {
+				successes: 1,
+				boons: 1
+			}
 		},
 		9: {
 			name: "oneSuccessOneDelay",

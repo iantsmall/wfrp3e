@@ -1285,6 +1285,7 @@
 
 	"ROLL": {
 		"ACTIONS": {
+			"addDiePool": "Add Die Pool",
 			"applyToggledEffects": "Apply Toggled Effects",
 			"performAFreeCheck": "Perform a Free Check",
 			"useTalent": "Use Ability/Talent"
