@@ -90,6 +90,7 @@
 	"url": "https://github.com/McGregor777/wfrp3e",
 	"manifest": "#{MANIFEST}#",
 	"download": "#{DOWNLOAD}#",
+	"bugs": "https://github.com/McGregor777/wfrp3e/issues",
 	"background": "systems/wfrp3e/assets/background.jpg",
 	"id": "wfrp3e"
 }
