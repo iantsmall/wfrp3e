@@ -3,9 +3,9 @@
 	"description": "<p>A game system for <em><strong>Warhammer Fantasy Roleplay - 3rd Edition</strong></em> in the Foundry Virtual Tabletop environment.</p>",
 	"version": "#{VERSION}#",
 	"compatibility": {
-		"minimum": "13",
-		"verified": "13.351",
-		"maximum": "13"
+		"minimum": "14",
+		"verified": "14.360",
+		"maximum": "14"
 	},
 	"authors": [{
 		"name": "Grégory Gauthier",
