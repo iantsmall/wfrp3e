@@ -3,14 +3,15 @@
 	"description": "<p>A game system for <em><strong>Warhammer Fantasy Roleplay - 3rd Edition</strong></em> in the Foundry Virtual Tabletop environment.</p>",
 	"version": "#{VERSION}#",
 	"compatibility": {
-		"minimum": "13",
-		"verified": "13.351",
-		"maximum": "13"
+		"minimum": "14",
+		"verified": "14.360",
+		"maximum": "14"
 	},
 	"authors": [{
 		"name": "Grégory Gauthier",
-		"email": "gregory.gauthier@mailo.com",
-		"flags": {}
+		"email": "gregory.gauthier@mailo.com"
+	}, {
+		"name": "Mark Jack Sundahl"
 	}],
 	"esmodules": [
 		"wfrp3e.mjs"
@@ -89,6 +90,7 @@
 	"url": "https://github.com/McGregor777/wfrp3e",
 	"manifest": "#{MANIFEST}#",
 	"download": "#{DOWNLOAD}#",
+	"bugs": "https://github.com/McGregor777/wfrp3e/issues",
 	"background": "systems/wfrp3e/assets/background.jpg",
 	"id": "wfrp3e"
 }

@@ -1,0 +1,40 @@
+{
+  "_id": "p3bmJPOuuTx9QjrA",
+  "name": "Crossbow",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-blue.webp",
+  "effects": [],
+  "folder": "ZwhVvJmBMNWLFSLX",
+  "system": {
+    "description": "<p>Easier to use than the bow and more deadly, this weapon has the disadvantage of being slow to reload.</p>",
+    "cost": {
+      "brass": 0,
+      "silver": 60,
+      "gold": 0
+    },
+    "encumbrance": 4,
+    "equipped": "unequipped",
+    "rarity": "common",
+    "damageRating": 6,
+    "criticalRating": 3,
+    "group": "crossbow",
+    "range": "long",
+    "qualities": [
+      {
+        "name": "twoHanded",
+        "rating": 1
+      },
+      {
+        "name": "reload",
+        "rating": 1
+      }
+    ],
+    "special": ""
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 100000,
+  "flags": {},
+  "_key": "!items!p3bmJPOuuTx9QjrA"
+}

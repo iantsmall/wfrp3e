@@ -1,0 +1,28 @@
+{
+  "name": "Mail Shirt",
+  "type": "armour",
+  "_id": "dbkjIUg1PxDcQBgP",
+  "img": "icons/equipment/chest/breastplate-scale-grey.webp",
+  "system": {
+    "defenceValue": 1,
+    "soakValue": 2,
+    "cost": {
+      "brass": 0,
+      "silver": 50,
+      "gold": 0
+    },
+    "description": "<p>Sometimes called a hauberk, this shirt of woven metal links offers some protection while not being particularly constricting. It includes neither a helm nor gauntlets.</p>",
+    "encumbrance": 4,
+    "equipped": false,
+    "rarity": "common",
+    "type": "armour"
+  },
+  "effects": [],
+  "folder": "wCqreVowARbBcAZy",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!dbkjIUg1PxDcQBgP"
+}

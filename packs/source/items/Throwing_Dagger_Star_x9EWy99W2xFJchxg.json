@@ -1,0 +1,36 @@
+{
+  "folder": "ZwhVvJmBMNWLFSLX",
+  "name": "Throwing Dagger/Star",
+  "type": "weapon",
+  "_id": "x9EWy99W2xFJchxg",
+  "img": "icons/weapons/thrown/dagger-ringed-guard.webp",
+  "system": {
+    "criticalRating": 4,
+    "damageRating": 4,
+    "group": "thrown",
+    "qualities": [
+      {
+        "name": "thrown",
+        "rating": 1
+      }
+    ],
+    "range": "close",
+    "special": "",
+    "cost": {
+      "brass": 0,
+      "silver": 10,
+      "gold": 0
+    },
+    "description": "<p>This includes any knife, dagger, shuriken, or dart specifically balanced to be thrown. In general, these count as improvised weapons if used in melee.</p>",
+    "encumbrance": 1,
+    "equipped": "unequipped",
+    "rarity": "plentiful"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!x9EWy99W2xFJchxg"
+}

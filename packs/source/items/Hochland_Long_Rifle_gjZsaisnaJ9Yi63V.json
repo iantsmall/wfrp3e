@@ -1,0 +1,48 @@
+{
+  "folder": "ZwhVvJmBMNWLFSLX",
+  "name": "Hochland Long Rifle",
+  "type": "weapon",
+  "_id": "gjZsaisnaJ9Yi63V",
+  "img": "icons/weapons/guns/rifle-fluted.webp",
+  "system": {
+    "criticalRating": 2,
+    "damageRating": 6,
+    "group": "blackpowder",
+    "qualities": [
+      {
+        "name": "pierce",
+        "rating": 1
+      },
+      {
+        "name": "reload",
+        "rating": 1
+      },
+      {
+        "name": "twoHanded",
+        "rating": 1
+      },
+      {
+        "name": "unreliable",
+        "rating": 1
+      }
+    ],
+    "range": "long",
+    "special": "<p>A superior craftsmanship Hochland long rifle loses the Unreliable quality. This weapon can fire at a target at extreme range by adding {Dchal} to the dice pool.</p>",
+    "cost": {
+      "brass": 0,
+      "silver": 0,
+      "gold": 15
+    },
+    "description": "<p>These magnificent pieces of craftsmanship are little seen outside of the armies of Hochland. The Hochland long rifle is a formidable long-ranged weapon with excellent accuracy.</p>",
+    "encumbrance": 5,
+    "equipped": "unequipped",
+    "rarity": "exotic"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "sort": 200000,
+  "flags": {},
+  "_key": "!items!gjZsaisnaJ9Yi63V"
+}

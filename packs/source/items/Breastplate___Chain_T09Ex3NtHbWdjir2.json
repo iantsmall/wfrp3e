@@ -1,0 +1,28 @@
+{
+  "name": "Breastplate & Chain",
+  "type": "armour",
+  "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+  "system": {
+    "defenceValue": 1,
+    "soakValue": 4,
+    "cost": {
+      "brass": 0,
+      "silver": 0,
+      "gold": 5
+    },
+    "description": "<p>Instead of wearing a full of suit of plate, this is a less costly, lighter but more awkward compromise. A solid metal breast plate is worn over a suit of chainmail armour. A chain coif and mail gauntlets complete the suit. Wearing this armour is sometimes taken as a sign that you are a poor knight unable to afford proper plate.</p>",
+    "encumbrance": 6,
+    "equipped": false,
+    "rarity": "rare",
+    "type": "armour"
+  },
+  "effects": [],
+  "folder": "wCqreVowARbBcAZy",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_id": "T09Ex3NtHbWdjir2",
+  "flags": {},
+  "_key": "!items!T09Ex3NtHbWdjir2"
+}

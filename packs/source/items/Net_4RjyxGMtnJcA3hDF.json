@@ -1,0 +1,36 @@
+{
+  "folder": "ZwhVvJmBMNWLFSLX",
+  "name": "Net",
+  "type": "weapon",
+  "_id": "4RjyxGMtnJcA3hDF",
+  "img": "icons/tools/fishing/net-simple-brown.webp",
+  "system": {
+    "criticalRating": 0,
+    "damageRating": 0,
+    "group": "thrown",
+    "qualities": [
+      {
+        "name": "entangling",
+        "rating": 1
+      }
+    ],
+    "range": "close",
+    "special": "",
+    "cost": {
+      "brass": 0,
+      "silver": 3,
+      "gold": 0
+    },
+    "description": "<p>A net designed to entangle, confuse and delay an enemy. This also includes similar weapons such as bolas. While ensnared by a net, the only manoeuvre a subject can take is to remove the net, which does not require a check.</p>",
+    "encumbrance": 3,
+    "equipped": "unequipped",
+    "rarity": "common"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!4RjyxGMtnJcA3hDF"
+}

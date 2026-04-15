@@ -124,14 +124,6 @@ export default class Actor extends foundry.abstract.TypeDataModel
 	}
 
 	/**
-	 * @returns {number} The damage reduction of the Actor, adding the Actor's total soak value and toughness rating.
-	 */
-	get damageReduction()
-	{
-		return this.characteristics.toughness.rating + this.totalSoak;
-	}
-
-	/**
 	 * @returns {number} The encumbrance limit the Actor.
 	 */
 	get encumbranceLimit()
@@ -154,7 +146,7 @@ export default class Actor extends foundry.abstract.TypeDataModel
 	}
 
 	/**
-	 * The sum of the defence value of every armour owned by the actor plus their own defence value.
+	 * The sum of the defence value of every armour equipped by the actor plus their own defence value.
 	 * @returns {number}
 	 */
 	get totalDefence()
@@ -164,12 +156,13 @@ export default class Actor extends foundry.abstract.TypeDataModel
 
 		let totalDefence = this.defenceModifier;
 		for(const armour of this.parent.itemTypes.armour)
-			totalDefence += armour.system.defenceValue;
+			if(armour.system.equipped)
+				totalDefence += armour.system.defenceValue;
 		return totalDefence;
 	}
 
 	/**
-	 * The sum of the soak value of every armour owned by the actor plus their own soak value.
+	 * The sum of the soak value of every armour equipped by the actor plus their own soak value.
 	 * @returns {number}
 	 */
 	get totalSoak()
@@ -179,7 +172,8 @@ export default class Actor extends foundry.abstract.TypeDataModel
 
 		let totalSoak = this.soakModifier;
 		for(const armour of this.parent.itemTypes.armour)
-			totalSoak += armour.system.soakValue;
+			if(armour.system.equipped)
+				totalSoak += armour.system.soakValue;
 		return totalSoak;
 	}
 }

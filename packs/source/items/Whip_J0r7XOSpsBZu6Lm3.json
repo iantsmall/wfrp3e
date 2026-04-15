@@ -1,0 +1,36 @@
+{
+  "folder": "ZwhVvJmBMNWLFSLX",
+  "name": "Whip",
+  "type": "weapon",
+  "_id": "J0r7XOSpsBZu6Lm3",
+  "img": "icons/weapons/misc/whip-red-yellow.webp",
+  "system": {
+    "criticalRating": 5,
+    "damageRating": 3,
+    "group": "thrown",
+    "qualities": [
+      {
+        "name": "entangling",
+        "rating": 1
+      }
+    ],
+    "range": "close",
+    "special": "",
+    "cost": {
+      "brass": 0,
+      "silver": 10,
+      "gold": 0
+    },
+    "description": "<p>The whip is a cord of leather or braided rope sometimes tipped with a barb or hook. Though painful, the whip does little real damage but can entangle an opponent.</p>",
+    "encumbrance": 3,
+    "equipped": "unequipped",
+    "rarity": "plentiful"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!J0r7XOSpsBZu6Lm3"
+}

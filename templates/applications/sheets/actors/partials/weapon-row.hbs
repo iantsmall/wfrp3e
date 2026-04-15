@@ -42,7 +42,7 @@
 			<span>
 				{{#if weapon.system.qualities}}
 					{{#each weapon.system.qualities}}
-						{{localize (lookup @root.weaponQualities this.name) "name"}}{{#unless @last}}, {{else}}{{#if ../weapon.system.special}}, {{/if}}{{/unless}}
+						{{localize (lookup (lookup @root.weaponQualities this.name) "name")}}{{#unless @last}}, {{else}}{{#if ../weapon.system.special}}, {{/if}}{{/unless}}
 					{{/each}}
 				{{else}}
 					—
@@ -58,6 +58,22 @@
 
 		<div class="group">
 			<span>{{localize (lookup (lookup @root.weaponGroups weapon.system.group) "name")}}</span>
+		</div>
+
+		<hr />
+
+		<div class="equipped">
+			<input name="system.equipped"
+				   value="mainHand"
+				   type="checkbox"
+				   {{checked (or (eq weapon.system.equipped "mainHand") (eq weapon.system.equipped "bothHands"))}}
+				   data-tooltip="{{localize 'WEAPON.STATES.mainHand'}}" />
+
+			<input name="system.equipped"
+				   value="offHand"
+				   type="checkbox"
+				   {{checked (or (eq weapon.system.equipped "offHand") (eq weapon.system.equipped "bothHands"))}}
+				   data-tooltip="{{localize 'WEAPON.STATES.offHand'}}" />
 		</div>
 
 		<hr />

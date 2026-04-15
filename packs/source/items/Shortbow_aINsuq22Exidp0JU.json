@@ -1,0 +1,36 @@
+{
+  "folder": "ZwhVvJmBMNWLFSLX",
+  "name": "Shortbow",
+  "type": "weapon",
+  "img": "icons/weapons/bows/shortbow-recurve-leather.webp",
+  "system": {
+    "criticalRating": 3,
+    "damageRating": 5,
+    "group": "bow",
+    "qualities": [
+      {
+        "name": "twoHanded",
+        "rating": 1
+      }
+    ],
+    "range": "medium",
+    "special": "",
+    "cost": {
+      "brass": 0,
+      "silver": 20,
+      "gold": 0
+    },
+    "description": "<p>A smaller, cheaper, shorter ranged version of the bow intended for combat while mounted.</p>",
+    "encumbrance": 3,
+    "equipped": "unequipped",
+    "rarity": "common"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "aINsuq22Exidp0JU",
+  "flags": {},
+  "_key": "!items!aINsuq22Exidp0JU"
+}

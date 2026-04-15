@@ -1,0 +1,28 @@
+{
+  "folder": "u8RdN316beESTZQO",
+  "name": "Tower Shield",
+  "type": "armour",
+  "_id": "Mgi5Tl55nwVUhfbY",
+  "img": "icons/equipment/shield/oval-wooden-boss-bronze.webp",
+  "system": {
+    "defenceValue": 2,
+    "soakValue": 1,
+    "cost": {
+      "brass": 0,
+      "silver": 0,
+      "gold": 1
+    },
+    "description": "<p>A large defensive shield usually used in siege warfare to give cover to advancing troops. For some, it is considered too heavy or cumbersome to be wielded in long drawn out fights.</p>",
+    "encumbrance": 5,
+    "equipped": false,
+    "rarity": "rare",
+    "type": "shield"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Mgi5Tl55nwVUhfbY"
+}

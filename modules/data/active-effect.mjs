@@ -1,13 +1,13 @@
 /** @inheritDoc */
-export default class ActiveEffect extends foundry.abstract.TypeDataModel
+export default class ActiveEffect extends foundry.data.ActiveEffectTypeDataModel
 {
 	/** @inheritDoc */
 	static defineSchema()
 	{
 		const {ActiveEffectMacro, ManualMacro} = wfrp3e.data.macros;
-		const fields = foundry.data.fields;
 
 		return {
+			...super.defineSchema(),
 			macro: new foundry.data.fields.TypedSchemaField(ActiveEffectMacro.TYPES, {initial: new ManualMacro()})
 		};
 	}

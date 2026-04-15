@@ -1,0 +1,36 @@
+{
+  "folder": "szoRh3PsaCvrXXf2",
+  "name": "Dagger",
+  "type": "weapon",
+  "_id": "4BYakC8mvZKqobwf",
+  "img": "icons/weapons/daggers/dagger-straight-blue.webp",
+  "system": {
+    "criticalRating": 3,
+    "damageRating": 4,
+    "group": "ordinary",
+    "qualities": [
+      {
+        "name": "fast",
+        "rating": 1
+      }
+    ],
+    "range": "close",
+    "special": "",
+    "cost": {
+      "brass": 0,
+      "silver": 10,
+      "gold": 0
+    },
+    "description": "<p>A short stabbing knife or poniard, these weapons are ubiquitous throughout the Old World. They can be thrown (see throwing dagger below) but unless balanced, incur a misfortune die.</p>",
+    "encumbrance": 2,
+    "equipped": "unequipped",
+    "rarity": "plentiful"
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!4BYakC8mvZKqobwf"
+}

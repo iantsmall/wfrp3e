@@ -4,8 +4,8 @@ foundry/
 .d.ts
 
 # NeDB database cache directories
-packs/**/
-!packs/source
+packs/*/
+!packs/source/
 
 # CSS file
 styles/wfrp3e.css

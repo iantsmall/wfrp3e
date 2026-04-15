@@ -1,0 +1,36 @@
+{
+  "folder": "szoRh3PsaCvrXXf2",
+  "name": "Lance",
+  "type": "weapon",
+  "_id": "P6eIjZH93bUfcINq",
+  "img": "icons/weapons/polearms/pike-flared-brown.webp",
+  "system": {
+    "criticalRating": 2,
+    "damageRating": 6,
+    "group": "cavalry",
+    "qualities": [
+      {
+        "name": "pierce",
+        "rating": 1
+      }
+    ],
+    "range": "close",
+    "special": "<p>If a mounted character armed with a lance is trained in Ride, add {Df} to his attack rolls. Awkward to use when not mounted, a lance loses all of its special qualities if wielded in such a manner, and performs as an improvised weapon.</p>",
+    "cost": {
+      "brass": 0,
+      "silver": 75,
+      "gold": 0
+    },
+    "description": "<p>A long, stout spear designed to be used by cavalry. It often has a flared cup near the handle for better control while mounted.</p>",
+    "encumbrance": 4,
+    "equipped": "unequipped",
+    "rarity": "common"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!P6eIjZH93bUfcINq"
+}

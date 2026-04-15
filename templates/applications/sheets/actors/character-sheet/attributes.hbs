@@ -132,11 +132,43 @@
 
 		<div class="attributes-subdivision">
 			{{#if system.priest}}
-				{{>systems/wfrp3e/templates/applications/sheets/actors/partials/attribute.hbs attribute=fields.favour}}
+				<fieldset class="attribute favour">
+					<div class="form-group">
+						<label for="{{concat rootId "-" fields.favour.fieldPath}}">
+							<a data-action="curryFavour" data-tooltip="{{localize 'CHARACTER.ACTIONS.curryFavour'}}">
+								{{fields.favour.label}}
+
+								<span class="fa-solid fa-hands-praying"></span>
+							</a>
+						</label>
+
+						<div class="form-fields">
+							{{formInput fields.favour
+										value=system.favour
+										id=(concat rootId "-" fields.favour.fieldPath)}}
+						</div>
+					</div>
+				</fieldset>
 			{{/if}}
 
 			{{#if system.wizard}}
-				{{>systems/wfrp3e/templates/applications/sheets/actors/partials/attribute.hbs attribute=fields.power}}
+				<fieldset class="attribute power">
+					<div class="form-group">
+						<label for="{{concat rootId "-" fields.power.fieldPath}}">
+							<a data-action="channelPower" data-tooltip="{{localize 'CHARACTER.ACTIONS.channelPower'}}">
+								{{fields.power.label}}
+
+								<span class="fa-solid fa-bolt"></span>
+							</a>
+						</label>
+
+						<div class="form-fields">
+							{{formInput fields.power
+										value=system.power
+										id=(concat rootId "-" fields.power.fieldPath)}}
+						</div>
+					</div>
+				</fieldset>
 			{{/if}}
 		</div>
 	</div>

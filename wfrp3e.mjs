@@ -27,6 +27,19 @@ Hooks.once("init", async () => {
 		default: "drawThree"
 	});
 
+	game.settings.register("wfrp3e", "stressFatigueCreatures", {
+		name: "SETTINGS.stressFatigueCreatures.name",
+		hint: "SETTINGS.stressFatigueCreatures.hint",
+		scope: "world",
+		config: true,
+		type: String,
+		choices: {
+			"wounds": "SETTINGS.stressFatigueCreatures.CHOICES.wounds",
+			"budget": "SETTINGS.stressFatigueCreatures.CHOICES.budget"
+		},
+		default: "drawThree"
+	})
+
 	CONFIG.fontDefinitions["ArnoPro"] = {
 		editor: true,
 		fonts: [

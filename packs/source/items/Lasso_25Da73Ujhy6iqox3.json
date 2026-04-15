@@ -1,0 +1,36 @@
+{
+  "folder": "ZwhVvJmBMNWLFSLX",
+  "name": "Lasso",
+  "type": "weapon",
+  "_id": "25Da73Ujhy6iqox3",
+  "img": "icons/sundries/survival/rope-noose-brown.webp",
+  "system": {
+    "criticalRating": 0,
+    "damageRating": 0,
+    "group": "thrown",
+    "qualities": [
+      {
+        "name": "entangling",
+        "rating": 1
+      }
+    ],
+    "range": "close",
+    "special": "",
+    "cost": {
+      "brass": 0,
+      "silver": 1,
+      "gold": 0
+    },
+    "description": "<p>A lasso is simply a length of rope employed to snare an opponent. The wielder may force an enemy ensnared by his lasso to be dragged into engagement with him by performing the <strong>Perform a Stunt</strong> action and passing an opposed Strength check versus the target. A character ensnared by a lasso can escape if he spends a manoeuvre and passes an <strong>Average (2d) Agility check</strong>.</p>",
+    "encumbrance": 2,
+    "equipped": "unequipped",
+    "rarity": "plentiful"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!25Da73Ujhy6iqox3"
+}

@@ -1,0 +1,44 @@
+{
+  "folder": "ZwhVvJmBMNWLFSLX",
+  "name": "Repeater Handgun",
+  "type": "weapon",
+  "img": "icons/weapons/guns/rifle-white.webp",
+  "system": {
+    "criticalRating": 2,
+    "damageRating": 6,
+    "group": "blackpowder",
+    "qualities": [
+      {
+        "name": "pierce",
+        "rating": 1
+      },
+      {
+        "name": "twoHanded",
+        "rating": 1
+      },
+      {
+        "name": "unreliable",
+        "rating": 1
+      }
+    ],
+    "range": "medium",
+    "special": "<p>Once all six barrels are expended, it takes six manoeuvres to reload this weapon.</p>",
+    "cost": {
+      "brass": 0,
+      "silver": 0,
+      "gold": 16
+    },
+    "description": "<p>A complex clockwork firearm with six barrels. The cutting edge of Imperial military technology, these devices are heavy, expensive, and notoriously unreliable.</p>",
+    "encumbrance": 5,
+    "equipped": "unequipped",
+    "rarity": "exotic"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "YCbjhgCuf6KygNbu",
+  "flags": {},
+  "_key": "!items!YCbjhgCuf6KygNbu"
+}

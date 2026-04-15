@@ -1,0 +1,28 @@
+{
+  "folder": "wCqreVowARbBcAZy",
+  "name": "Cloth",
+  "type": "armour",
+  "_id": "blefEINActAKA6US",
+  "img": "icons/equipment/chest/shirt-collared-brown.webp",
+  "system": {
+    "defenceValue": 0,
+    "soakValue": 1,
+    "cost": {
+      "brass": 12,
+      "silver": 0,
+      "gold": 0
+    },
+    "description": "<p>This is not armour per se but the benefit of wearing durable, practical clothing.</p>",
+    "encumbrance": 1,
+    "equipped": false,
+    "rarity": "plentiful",
+    "type": "armour"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!blefEINActAKA6US"
+}

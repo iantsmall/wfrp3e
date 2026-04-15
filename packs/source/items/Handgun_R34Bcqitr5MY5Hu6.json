@@ -1,0 +1,48 @@
+{
+  "folder": "ZwhVvJmBMNWLFSLX",
+  "name": "Handgun",
+  "type": "weapon",
+  "_id": "R34Bcqitr5MY5Hu6",
+  "img": "icons/weapons/guns/gun-wood.webp",
+  "system": {
+    "criticalRating": 2,
+    "damageRating": 6,
+    "group": "blackpowder",
+    "qualities": [
+      {
+        "name": "pierce",
+        "rating": 1
+      },
+      {
+        "name": "reload",
+        "rating": 1
+      },
+      {
+        "name": "twoHanded",
+        "rating": 1
+      },
+      {
+        "name": "unreliable",
+        "rating": 1
+      }
+    ],
+    "range": "medium",
+    "special": "",
+    "cost": {
+      "brass": 0,
+      "silver": 0,
+      "gold": 8
+    },
+    "description": "<p>Sometimes called the harquebus, this is the standard blackpowder weapon of the Empire. It takes two hands to wield. Every handgun is handmade by a gunsmith and no two are exactly alike. The firing systems in use include matchlock, wheellock, and flintlock types, with flintlock weapons being considered the superior examples.</p>",
+    "encumbrance": 4,
+    "equipped": "unequipped",
+    "rarity": "rare"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!R34Bcqitr5MY5Hu6"
+}

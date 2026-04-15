@@ -1,0 +1,28 @@
+{
+  "folder": "wCqreVowARbBcAZy",
+  "name": "Robes",
+  "type": "armour",
+  "_id": "Vo9nDHlK8ih46m4B",
+  "img": "icons/equipment/chest/robe-layered-white.webp",
+  "system": {
+    "defenceValue": 1,
+    "soakValue": 0,
+    "cost": {
+      "brass": 0,
+      "silver": 5,
+      "gold": 0
+    },
+    "description": "<p>The voluminous robes of wizards and the garb of priests make landing a solid blow slightly more difficult. Still, counting on their protection in a fight is probably a dubious stratagem.</p>",
+    "encumbrance": 2,
+    "equipped": false,
+    "rarity": "rare",
+    "type": "armour"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Vo9nDHlK8ih46m4B"
+}

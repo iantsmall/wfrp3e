@@ -1,0 +1,44 @@
+{
+  "folder": "szoRh3PsaCvrXXf2",
+  "name": "Flail",
+  "type": "weapon",
+  "_id": "DKxbaxRSjHnO0QBa",
+  "img": "icons/weapons/maces/flail-studded-grey.webp",
+  "system": {
+    "criticalRating": 4,
+    "damageRating": 4,
+    "group": "flail",
+    "qualities": [
+      {
+        "name": "slow",
+        "rating": 1
+      },
+      {
+        "name": "vicious",
+        "rating": 1
+      },
+      {
+        "name": "twoHanded",
+        "rating": 1
+      }
+    ],
+    "range": "close",
+    "special": "",
+    "cost": {
+      "brass": 0,
+      "silver": 90,
+      "gold": 0
+    },
+    "description": "<p>A zealot’s weapon sometimes used for self flagellation, a long wooden handle supports a tangled mass of heavy chain, spiked iron spheres, and wicked hooks. It is an awkward weapon that must be wielded two-handed, but when it lands a blow it inflicts horrendous wounds.</p>",
+    "encumbrance": 6,
+    "equipped": "unequipped",
+    "rarity": "rare"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!DKxbaxRSjHnO0QBa"
+}

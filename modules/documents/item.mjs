@@ -56,6 +56,22 @@ export default class Item extends foundry.documents.Item
 		}
 	}
 
+	/** @inheritDoc */
+	_preUpdate(changed, options, user)
+	{
+		super._preUpdate(changed, options, user);
+
+		try {
+			const functionName = `_pre${capitalize(this.type)}Update`;
+
+			if(this[functionName])
+				this[functionName](changed, options, user);
+		}
+		catch(exception) {
+			console.error(`Something went wrong when updating the Item ${this.name} of type ${this.type}: ${exception}`);
+		}
+	}
+
 	/**
 	 * Fetches the details of the item, depending on its type.
 	 * @param {Object} [options] The options for the details fetch.
@@ -149,7 +165,7 @@ export default class Item extends foundry.documents.Item
 		if(this.system.cooldown)
 			ui.notifications.warn(game.i18n.localize("ABILITY.WARNINGS.cooldown"));
 		else
-			await this.effects.get(options.id).triggerMacro();
+			await this.effects.get(options.id).triggerMacro({actor: this.actor});
 	}
 
 	//#endregion
@@ -221,7 +237,11 @@ export default class Item extends foundry.documents.Item
 		if(!options.face)
 			throw ui.notifications.error("Exhausting an Action requires to know which face is concerned.");
 
-		await this.update({"system.rechargeTokens": this.system[options.face].rechargeRating});
+		let rechargeTokens = (options.rechargeTokens ?? 0) + this.system[options.face].rechargeRating;
+		if(options.weapon?.system.qualities.some(quality => quality.name === "slow"))
+			rechargeTokens++;
+
+		await this.update({"system.rechargeTokens": rechargeTokens});
 	}
 
 	/**
@@ -364,6 +384,41 @@ export default class Item extends foundry.documents.Item
 			});
 			await diePool.roll();
 		}
+	}
+
+	//#endregion
+	//#region Armour methods
+
+	/**
+	 * Post-process an update operation for a single Armour instance. Post-operation events occur for all connected clients.
+	 * @param {Object} changed The differential data that was changed relative to the Armour's prior values.
+	 * @param {Object} options Additional options which modify the update request.
+	 * @param {BaseUser} user The User requesting the document update.
+	 * @protected
+	 */
+	_preArmourUpdate(changed, options, user)
+	{
+		if(this.actor && changed.system?.equipped)
+			this.#onEquippingArmour();
+	}
+
+	/**
+	 * Prevents two armours or shields to be equipped at the same time.
+	 * Also prevents weapons from being held off-hand at the same time as a shield.
+	 * @private
+	 */
+	async #onEquippingArmour()
+	{
+		for(const armour of this.actor.itemTypes.armour)
+			if(armour.uuid !== this.uuid && armour.system.equipped && armour.system.type === this.system.type)
+				await armour.update({"system.equipped": false});
+
+		if(this.system.type === "shield")
+			for(const weapon of this.actor.itemTypes.weapon)
+				if(weapon.system.equipped === "offHand")
+					await weapon.update({"system.equipped": "unequipped"});
+				else if(weapon.system.equipped === "bothHands")
+					await weapon.update({"system.equipped": "mainHand"});
 	}
 
 	//#endregion
@@ -576,7 +631,7 @@ export default class Item extends foundry.documents.Item
 		else if(this.system.socket == null)
 			ui.notifications.warn(game.i18n.localize("TALENT.WARNINGS.notSocketed"));
 		else
-			await this.effects.get(options.id).triggerMacro();
+			await this.effects.get(options.id).triggerMacro({actor: this.actor});
 	}
 
 	//#endregion
@@ -594,6 +649,49 @@ export default class Item extends foundry.documents.Item
 
 	//#endregion
 	//#region Weapon methods
+
+	/**
+	 * Post-process an update operation for a single Weapon instance. Post-operation events occur for all connected clients.
+	 * @param {Object} changed The differential data that was changed relative to the Weapon's prior values.
+	 * @param {Object} options Additional options which modify the update request.
+	 * @param {BaseUser} user The User requesting the document update.
+	 * @protected
+	 */
+	_preWeaponUpdate(changed, options, user)
+	{
+		if(this.actor && changed.system?.equipped !== "unequipped")
+			this.#onEquippingWeapon(changed.system.equipped);
+	}
+
+	/**
+	 * Prevents multiple Weapons and shields from being equipped in the same hands.
+	 * @param {string} state The new state of the Weapon being equipped.
+	 * @private
+	 */
+	async #onEquippingWeapon(state)
+	{
+		for(const weapon of this.actor.itemTypes.weapon)
+			if(this.uuid !== weapon.uuid) {
+				const initial = weapon.system.equipped;
+				let value = null;
+
+				if(initial !== "unequipped" && [initial, "bothHands"].includes(state))
+					value = "unequipped";
+				else if(initial === "bothHands")
+					if(state === "mainHand")
+						value = "offHand";
+					else if(state === "offHand")
+						value = "mainHand";
+
+				if(value)
+					await weapon.update({"system.equipped": value});
+			}
+
+		if(["offHand", "bothHands"].includes(state))
+			for(const armour of this.actor.itemTypes.armour)
+				if(armour.system.type === "shield" && armour.system.equipped)
+					await armour.update({"system.equipped": false});
+	}
 
 	/**
 	 * Makes usage of the weapon.

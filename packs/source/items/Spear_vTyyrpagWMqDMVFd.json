@@ -1,0 +1,44 @@
+{
+  "folder": "szoRh3PsaCvrXXf2",
+  "name": "Spear",
+  "type": "weapon",
+  "_id": "vTyyrpagWMqDMVFd",
+  "img": "icons/weapons/polearms/spear-flared-blue.webp",
+  "system": {
+    "criticalRating": 3,
+    "damageRating": 5,
+    "group": "spear",
+    "qualities": [
+      {
+        "name": "fast",
+        "rating": 1
+      },
+      {
+        "name": "unreliable",
+        "rating": 1
+      },
+      {
+        "name": "attuned",
+        "rating": 1
+      }
+    ],
+    "range": "close",
+    "special": "",
+    "cost": {
+      "brass": 0,
+      "silver": 20,
+      "gold": 0
+    },
+    "description": "<p>A long wooden haft with a pointed metal head, the spear is an ancient and versatile weapon. It can be wielded one-handed with a shield. It may also be wielded two-handed, increasing its damage rating by 1. It may also be effectively thrown up to close range.</p>",
+    "encumbrance": 4,
+    "equipped": "unequipped",
+    "rarity": "plentiful"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!vTyyrpagWMqDMVFd"
+}
